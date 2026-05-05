@@ -2,11 +2,11 @@
   "version": 2,
   "builds": [
     {
-      "src": "geointelx/geointelx/server/server.js",
+      "src": "server/server.js",
       "use": "@vercel/node"
     },
     {
-      "src": "geointelx/geointelx/client/package.json",
+      "src": "client/package.json",
       "use": "@vercel/static-build",
       "config": {
         "distDir": "dist"
@@ -16,11 +16,11 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "/geointelx/geointelx/server/server.js"
+      "destination": "/server/server.js"
     },
     {
       "source": "/(.*)",
-      "destination": "/geointelx/geointelx/client/$1"
+      "destination": "/client/$1"
     }
   ]
 }
