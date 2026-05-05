@@ -1,20 +1,20 @@
-# Dependencies
 node_modules/
-**/node_modules/
 package-lock.json
-**/package-lock.json
+client/node_modules/
+client/package-lock.json
+.DS_Store
 
 # Environment variables
 .env
-**/.env
 .env.local
 .env.*.local
+client/.env
+server/.env
 
 # Build outputs
 dist/
 build/
-**/dist/
-**/build/
+client/dist/
 
 # Debug logs
 *.log
@@ -23,10 +23,6 @@ yarn-debug.log*
 pnpm-debug.log*
 
 # System files
-.DS_Store
 Thumbs.db
 desktop.ini
 
-# Junk
-temp_repo/
-geointelx/server/package-lock.json

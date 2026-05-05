@@ -1,0 +1,3817 @@
+[
+  {
+    "id": 1,
+    "subject": "Polity",
+    "topic": "Parliament",
+    "difficulty": "Medium",
+    "question": "The 'Joint Sitting' of the two Houses of Parliament is presided over by:",
+    "options": [
+      "A) The President of India",
+      "B) The Vice-President",
+      "C) The Speaker of Lok Sabha",
+      "D) The Prime Minister"
+    ],
+    "answer": "C) The Speaker of Lok Sabha",
+    "explanation": "Under Article 108, the President calls a joint sitting, but under Article 118, it is presided over by the Speaker of Lok Sabha."
+  },
+  {
+    "id": 2,
+    "subject": "Polity",
+    "topic": "Judiciary",
+    "difficulty": "Hard",
+    "question": "The 'Basic Structure Doctrine' was first propounded in which case?",
+    "options": [
+      "A) Golaknath Case",
+      "B) Kesavananda Bharati Case",
+      "C) Minerva Mills Case",
+      "D) Waman Rao Case"
+    ],
+    "answer": "B) Kesavananda Bharati Case",
+    "explanation": "In 1973, the SC held that while Parliament has the power to amend the Constitution, it cannot alter its 'basic structure'."
+  },
+  {
+    "id": 3,
+    "subject": "Polity",
+    "topic": "Fundamental Duties",
+    "difficulty": "Easy",
+    "question": "Which Constitutional Amendment added Fundamental Duties to the Indian Constitution?",
+    "options": [
+      "A) 42nd Amendment",
+      "B) 44th Amendment",
+      "C) 86th Amendment",
+      "D) 91st Amendment"
+    ],
+    "answer": "A) 42nd Amendment",
+    "explanation": "The 42nd Amendment (1976) added Part IV-A (Article 51A) based on the Swaran Singh Committee recommendations."
+  },
+  {
+    "id": 4,
+    "subject": "Polity",
+    "topic": "Emergency",
+    "difficulty": "Medium",
+    "question": "Which Fundamental Rights cannot be suspended even during a National Emergency?",
+    "options": [
+      "A) Articles 14 and 15",
+      "B) Articles 19 and 20",
+      "C) Articles 20 and 21",
+      "D) Articles 21 and 22"
+    ],
+    "answer": "C) Articles 20 and 21",
+    "explanation": "The 44th Amendment Act ensured that the rights guaranteed by Articles 20 and 21 cannot be suspended even during an emergency."
+  },
+  {
+    "id": 5,
+    "subject": "Polity",
+    "topic": "Local Government",
+    "difficulty": "Medium",
+    "question": "Who was the chairman of the committee that recommended the three-tier Panchayati Raj system?",
+    "options": [
+      "A) Ashok Mehta",
+      "B) Balwant Rai Mehta",
+      "C) L.M. Singhvi",
+      "D) G.V.K. Rao"
+    ],
+    "answer": "B) Balwant Rai Mehta",
+    "explanation": "The Balwant Rai Mehta Committee (1957) recommended a three-tier system: Gram Panchayat, Panchayat Samiti, and Zila Parishad."
+  },
+  {
+    "id": 6,
+    "subject": "History",
+    "topic": "Ancient India",
+    "difficulty": "Medium",
+    "question": "The famous 'Dancing Girl' statue found in the Indus Valley Civilization was made of:",
+    "options": [
+      "A) Terracotta",
+      "B) Steatite",
+      "C) Bronze",
+      "D) Red Sandstone"
+    ],
+    "answer": "C) Bronze",
+    "explanation": "The statue was found at Mohenjo-daro and was made using the 'lost-wax' casting technique."
+  },
+  {
+    "id": 7,
+    "subject": "History",
+    "topic": "Medieval India",
+    "difficulty": "Easy",
+    "question": "The 'Jizya' tax was abolished by which Mughal Emperor?",
+    "options": [
+      "A) Babur",
+      "B) Humayun",
+      "C) Akbar",
+      "D) Aurangzeb"
+    ],
+    "answer": "C) Akbar",
+    "explanation": "Akbar abolished Jizya in 1564 as part of his policy of religious tolerance."
+  },
+  {
+    "id": 8,
+    "subject": "History",
+    "topic": "Modern India",
+    "difficulty": "Hard",
+    "question": "Who was the Viceroy of India when the 'Quit India Movement' started in 1942?",
+    "options": [
+      "A) Lord Linlithgow",
+      "B) Lord Wavell",
+      "C) Lord Mountbatten",
+      "D) Lord Willingdon"
+    ],
+    "answer": "A) Lord Linlithgow",
+    "explanation": "Lord Linlithgow served as Viceroy from 1936 to 1943 during the launch of the movement."
+  },
+  {
+    "id": 9,
+    "subject": "History",
+    "topic": "Maharashtra History",
+    "difficulty": "Medium",
+    "question": "In which year did the Battle of Pratapgad take place between Shivaji Maharaj and Afzal Khan?",
+    "options": [
+      "A) 1659",
+      "B) 1666",
+      "C) 1674",
+      "D) 1680"
+    ],
+    "answer": "A) 1659",
+    "explanation": "The battle took place on November 10, 1659, resulting in a decisive victory for the Marathas."
+  },
+  {
+    "id": 10,
+    "subject": "History",
+    "topic": "Social Reformers",
+    "difficulty": "Easy",
+    "question": "Who is known as the 'Grand Old Man of India'?",
+    "options": [
+      "A) Bal Gangadhar Tilak",
+      "B) Dadabhai Naoroji",
+      "C) Gopal Krishna Gokhale",
+      "D) Mahatma Gandhi"
+    ],
+    "answer": "B) Dadabhai Naoroji",
+    "explanation": "Naoroji was a key figure in the INC and authored 'Poverty and Un-British Rule in India'."
+  },
+  {
+    "id": 11,
+    "subject": "Geography",
+    "topic": "Physical Geography",
+    "difficulty": "Medium",
+    "question": "The 'Ring of Fire' is associated with which ocean?",
+    "options": [
+      "A) Atlantic Ocean",
+      "B) Indian Ocean",
+      "C) Pacific Ocean",
+      "D) Arctic Ocean"
+    ],
+    "answer": "C) Pacific Ocean",
+    "explanation": "The Ring of Fire is a major area in the Pacific basin where many earthquakes and eruptions occur."
+  },
+  {
+    "id": 12,
+    "subject": "Geography",
+    "topic": "Indian Geography",
+    "difficulty": "Easy",
+    "question": "Which Indian state is known as the 'Land of Five Rivers'?",
+    "options": [
+      "A) Haryana",
+      "B) Punjab",
+      "C) Uttar Pradesh",
+      "D) Rajasthan"
+    ],
+    "answer": "B) Punjab",
+    "explanation": "Punjab gets its name from 'Punj' (five) and 'Ab' (water/rivers)."
+  },
+  {
+    "id": 13,
+    "subject": "Geography",
+    "topic": "Maharashtra Geography",
+    "difficulty": "Medium",
+    "question": "Which soil type is most dominant in the Deccan Plateau region of Maharashtra?",
+    "options": [
+      "A) Alluvial Soil",
+      "B) Red Soil",
+      "C) Regur (Black) Soil",
+      "D) Laterite Soil"
+    ],
+    "answer": "C) Regur (Black) Soil",
+    "explanation": "Black soil is derived from the weathering of basaltic lava rocks and is ideal for cotton."
+  },
+  {
+    "id": 14,
+    "subject": "Geography",
+    "topic": "World Geography",
+    "difficulty": "Hard",
+    "question": "The 'Pampas' grasslands are found in which country?",
+    "options": [
+      "A) Brazil",
+      "B) Argentina",
+      "C) South Africa",
+      "D) Australia"
+    ],
+    "answer": "B) Argentina",
+    "explanation": "Pampas are fertile South American lowlands primarily in Argentina."
+  },
+  {
+    "id": 15,
+    "subject": "Geography",
+    "topic": "Environment",
+    "difficulty": "Medium",
+    "question": "The 'Silent Valley' National Park is located in which state?",
+    "options": [
+      "A) Karnataka",
+      "B) Tamil Nadu",
+      "C) Kerala",
+      "D) Andhra Pradesh"
+    ],
+    "answer": "C) Kerala",
+    "explanation": "Located in the Palakkad district, it is famous for its unique biodiversity."
+  },
+  {
+    "id": 16,
+    "subject": "Economy",
+    "topic": "Banking",
+    "difficulty": "Easy",
+    "question": "Which organization calculates the GDP in India?",
+    "options": [
+      "A) NITI Aayog",
+      "B) RBI",
+      "C) National Statistical Office (NSO)",
+      "D) Finance Ministry"
+    ],
+    "answer": "C) National Statistical Office (NSO)",
+    "explanation": "The NSO, under MoSPI, is responsible for estimating GDP."
+  },
+  {
+    "id": 17,
+    "subject": "Economy",
+    "topic": "Inflation",
+    "difficulty": "Medium",
+    "question": "The 'Lorenz Curve' is used to measure:",
+    "options": [
+      "A) Inflation",
+      "B) Unemployment",
+      "C) Inequality in income distribution",
+      "D) Poverty line"
+    ],
+    "answer": "C) Inequality in income distribution",
+    "explanation": "A Lorenz curve is a graphical representation of the distribution of income or wealth."
+  },
+  {
+    "id": 18,
+    "subject": "Economy",
+    "topic": "Stock Market",
+    "difficulty": "Easy",
+    "question": "What is the base year for the calculation of 'SENSEX'?",
+    "options": [
+      "A) 1978-79",
+      "B) 1980-81",
+      "C) 1990-91",
+      "D) 2004-05"
+    ],
+    "answer": "A) 1978-79",
+    "explanation": "The SENSEX is the benchmark index of the BSE with 1978-79 as its base year."
+  },
+  {
+    "id": 19,
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Medium",
+    "question": "Which of the following is a 'Scalar' quantity?",
+    "options": [
+      "A) Velocity",
+      "B) Force",
+      "C) Speed",
+      "D) Acceleration"
+    ],
+    "answer": "C) Speed",
+    "explanation": "Scalar quantities only have magnitude. Speed has no direction."
+  },
+  {
+    "id": 20,
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Easy",
+    "question": "Which organ in the human body is primarily affected by 'Hepatitis'?",
+    "options": [
+      "A) Heart",
+      "B) Lungs",
+      "C) Liver",
+      "D) Kidney"
+    ],
+    "answer": "C) Liver",
+    "explanation": "Hepatitis is an inflammation of the liver, usually caused by a viral infection."
+  },
+  {
+    "id": 21,
+    "subject": "History",
+    "topic": "Modern India",
+    "difficulty": "Hard",
+    "question": "The first session of the Indian National Congress in 1885 was presided over by:",
+    "options": [
+      "A) A.O. Hume",
+      "B) W.C. Bonnerjee",
+      "C) Dadabhai Naoroji",
+      "D) Badruddin Tyabji"
+    ],
+    "answer": "B) W.C. Bonnerjee",
+    "explanation": "Womesh Chandra Bonnerjee was the president of the first session in Bombay."
+  },
+  {
+    "id": 22,
+    "subject": "Science",
+    "topic": "Astronomy",
+    "difficulty": "Medium",
+    "question": "The 'James Webb Space Telescope' is an initiative of which space agencies?",
+    "options": [
+      "A) NASA, ESA and CSA",
+      "B) NASA and ISRO",
+      "C) ESA and JAXA",
+      "D) Roscosmos and CNSA"
+    ],
+    "answer": "A) NASA, ESA and CSA",
+    "explanation": "The JWST is a joint mission of NASA, ESA, and CSA."
+  },
+  {
+    "id": 23,
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Hard",
+    "question": "In which part of the human eye is the image formed?",
+    "options": [
+      "A) Cornea",
+      "B) Lens",
+      "C) Retina",
+      "D) Pupil"
+    ],
+    "answer": "C) Retina",
+    "explanation": "The retina is the light-sensitive layer where images are focused."
+  },
+  {
+    "id": 24,
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Easy",
+    "question": "What is the SI unit of electric current?",
+    "options": [
+      "A) Volt",
+      "B) Ampere",
+      "C) Ohm",
+      "D) Watt"
+    ],
+    "answer": "B) Ampere",
+    "explanation": "Electric current is measured in Amperes (A)."
+  },
+  {
+    "id": 25,
+    "subject": "Science",
+    "topic": "Chemistry",
+    "difficulty": "Medium",
+    "question": "Which of the following acids is present in an ant's sting?",
+    "options": [
+      "A) Acetic acid",
+      "B) Methanoic acid",
+      "C) Citric acid",
+      "D) Tartaric acid"
+    ],
+    "answer": "B) Methanoic acid",
+    "explanation": "Methanoic acid (formic acid) is what causes the stinging sensation."
+  },
+  {
+    "id": 26,
+    "subject": "Environment",
+    "topic": "International Treaties",
+    "difficulty": "Hard",
+    "question": "The 'Kyoto Protocol' is an international treaty aimed at reducing:",
+    "options": [
+      "A) Ozone depletion",
+      "B) Greenhouse gas emissions",
+      "C) Hazardous waste trade",
+      "D) Loss of biodiversity"
+    ],
+    "answer": "B) Greenhouse gas emissions",
+    "explanation": "Adopted in 1997, it aims to combat global warming."
+  },
+  {
+    "id": 27,
+    "subject": "Science",
+    "topic": "Technology",
+    "difficulty": "Medium",
+    "question": "The 'Li-Fi' technology uses which medium for data transmission?",
+    "options": [
+      "A) Radio waves",
+      "B) Visible light",
+      "C) Infrared rays",
+      "D) Sound waves"
+    ],
+    "answer": "B) Visible light",
+    "explanation": "Li-Fi (Light Fidelity) uses LEDs to transmit data wirelessly."
+  },
+  {
+    "id": 28,
+    "subject": "General Awareness",
+    "topic": "Sports",
+    "difficulty": "Medium",
+    "question": "Which country hosted the first official modern Olympic Games in 1896?",
+    "options": [
+      "A) Greece",
+      "B) France",
+      "C) USA",
+      "D) UK"
+    ],
+    "answer": "A) Greece",
+    "explanation": "The first modern Games were held in Athens, Greece."
+  },
+  {
+    "id": 29,
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Easy",
+    "question": "How many chambers are there in the human heart?",
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 5"
+    ],
+    "answer": "C) 4",
+    "explanation": "The human heart has 4 chambers: two atria and two ventricles."
+  },
+  {
+    "id": 30,
+    "subject": "Environment",
+    "topic": "Ecology",
+    "difficulty": "Easy",
+    "question": "Which is a biodiversity hotspot in India?",
+    "options": [
+      "A) Thar Desert",
+      "B) Western Ghats",
+      "C) Indo-Gangetic Plain",
+      "D) Deccan Plateau"
+    ],
+    "answer": "B) Western Ghats",
+    "explanation": "The Western Ghats are known for high biodiversity and endemic species."
+  },
+  {
+    "id": 31,
+    "subject": "General Knowledge",
+    "topic": "Organizations",
+    "difficulty": "Easy",
+    "question": "UN headquarters is located in:",
+    "options": [
+      "A) Geneva",
+      "B) New York",
+      "C) Paris",
+      "D) London"
+    ],
+    "answer": "B) New York",
+    "explanation": "The United Nations headquarters is in New York, USA."
+  },
+  {
+    "id": 32,
+    "subject": "Current Affairs",
+    "topic": "International Relations",
+    "difficulty": "Easy",
+    "question": "Which country is NOT a member of G7?",
+    "options": [
+      "A) USA",
+      "B) India",
+      "C) UK",
+      "D) Germany"
+    ],
+    "answer": "B) India",
+    "explanation": "India is not a permanent member of the G7 group."
+  },
+  {
+    "id": 33,
+    "subject": "History",
+    "topic": "Personalities",
+    "difficulty": "Easy",
+    "question": "Who is known as the Iron Man of India?",
+    "options": [
+      "A) Nehru",
+      "B) Patel",
+      "C) Gandhi",
+      "D) Bose"
+    ],
+    "answer": "B) Patel",
+    "explanation": "Sardar Vallabhbhai Patel is known for his role in unifying India."
+  },
+  {
+    "id": 34,
+    "subject": "History",
+    "topic": "Ancient India",
+    "difficulty": "Easy",
+    "question": "Which of the following was the most important crop of the Early Vedic people?",
+    "options": [
+      "A) Wheat",
+      "B) Barley",
+      "C) Rice",
+      "D) Cotton"
+    ],
+    "answer": "B) Barley",
+    "explanation": "Barley (Yava) is the most frequently mentioned grain in the Rig Veda."
+  },
+  {
+    "id": 35,
+    "subject": "History",
+    "topic": "Ancient India",
+    "difficulty": "Medium",
+    "question": "The 'Saptang Theory' of State was propounded by:",
+    "options": [
+      "A) Manu",
+      "B) Kautilya",
+      "C) Megasthenes",
+      "D) Banabhatta"
+    ],
+    "answer": "B) Kautilya",
+    "explanation": "Kautilya described the state as having seven limbs (Saptanga) in his Arthashastra."
+  },
+  {
+    "id": 36,
+    "subject": "Geography",
+    "topic": "World Geography",
+    "difficulty": "Easy",
+    "question": "The 'Strait of Gibraltar' connects the Atlantic Ocean with the:",
+    "options": [
+      "A) Red Sea",
+      "B) Mediterranean Sea",
+      "C) Black Sea",
+      "D) Caspian Sea"
+    ],
+    "answer": "B) Mediterranean Sea",
+    "explanation": "The strait separates Europe and Africa and connects the Atlantic to the Mediterranean."
+  },
+  {
+    "id": 37,
+    "subject": "Economy",
+    "topic": "Taxation",
+    "difficulty": "Medium",
+    "question": "Which of the following taxes is NOT subsumed under the Goods and Services Tax (GST)?",
+    "options": [
+      "A) Service Tax",
+      "B) Central Excise Duty",
+      "C) Basic Customs Duty",
+      "D) Value Added Tax (VAT)"
+    ],
+    "answer": "C) Basic Customs Duty",
+    "explanation": "Basic Customs Duty remains outside the purview of GST."
+  },
+  {
+    "id": 38,
+    "subject": "Environment",
+    "topic": "Pollution",
+    "difficulty": "Easy",
+    "question": "Which pollutant is primarily responsible for the depletion of the ozone layer?",
+    "options": [
+      "A) CO2",
+      "B) CFCs",
+      "C) Methane",
+      "D) SO2"
+    ],
+    "answer": "B) CFCs",
+    "explanation": "Chlorofluorocarbons break down in the stratosphere to release chlorine which destroys ozone."
+  },
+  {
+    "id": 39,
+    "subject": "Current Affairs",
+    "topic": "Schemes",
+    "difficulty": "Medium",
+    "question": "The 'PM-KUSUM' scheme is related to:",
+    "options": [
+      "A) Solar Pumps",
+      "B) Free Healthcare",
+      "C) Road construction",
+      "D) Education"
+    ],
+    "answer": "A) Solar Pumps",
+    "explanation": "It aims to provide energy security to farmers by installing solar irrigation pumps."
+  },
+  {
+    "id": 40,
+    "subject": "Maharashtra GK",
+    "topic": "Social Reformers",
+    "difficulty": "Hard",
+    "question": "Who started the newspaper 'Mooknayak' in 1920?",
+    "options": [
+      "A) Jyotirao Phule",
+      "B) B.R. Ambedkar",
+      "C) Shahu Maharaj",
+      "D) V.R. Shinde"
+    ],
+    "answer": "B) B.R. Ambedkar",
+    "explanation": "Dr. Ambedkar started 'Mooknayak' to voice the concerns of the marginalized."
+  },
+  {
+    "id": 41,
+    "subject": "Polity",
+    "topic": "DPSP",
+    "difficulty": "Easy",
+    "question": "Which Article of the Constitution directs the State to organize Village Panchayats?",
+    "options": [
+      "A) Article 38",
+      "B) Article 40",
+      "C) Article 44",
+      "D) Article 48"
+    ],
+    "answer": "B) Article 40",
+    "explanation": "Article 40 in the DPSP specifies the organization of village panchayats."
+  },
+  {
+    "id": 42,
+    "subject": "History",
+    "topic": "1857 Revolt",
+    "difficulty": "Medium",
+    "question": "Who led the 1857 revolt in Kanpur?",
+    "options": [
+      "A) Rani Laxmi Bai",
+      "B) Kunwar Singh",
+      "C) Nana Saheb",
+      "D) Begum Hazrat Mahal"
+    ],
+    "answer": "C) Nana Saheb",
+    "explanation": "Nana Saheb led the revolt in Kanpur during the Indian Rebellion of 1857."
+  },
+  {
+    "id": 43,
+    "subject": "Geography",
+    "topic": "Universe",
+    "difficulty": "Hard",
+    "question": "Which is the largest moon in our solar system?",
+    "options": [
+      "A) Titan",
+      "B) Ganymede",
+      "C) Europa",
+      "D) Callisto"
+    ],
+    "answer": "B) Ganymede",
+    "explanation": "Ganymede, a moon of Jupiter, is the largest moon in the solar system."
+  },
+  {
+    "id": 44,
+    "subject": "Economy",
+    "topic": "Five Year Plans",
+    "difficulty": "Easy",
+    "question": "The 'Harrod-Domar' model was the basis of which Five Year Plan?",
+    "options": [
+      "A) First",
+      "B) Second",
+      "C) Third",
+      "D) Fourth"
+    ],
+    "answer": "A) First",
+    "explanation": "The First Five Year Plan was based on the Harrod-Domar model."
+  },
+  {
+    "id": 45,
+    "subject": "Science",
+    "topic": "Periodic Table",
+    "difficulty": "Medium",
+    "question": "Which element has the atomic number 1?",
+    "options": [
+      "A) Helium",
+      "B) Oxygen",
+      "C) Hydrogen",
+      "D) Carbon"
+    ],
+    "answer": "C) Hydrogen",
+    "explanation": "Hydrogen is the first element in the periodic table."
+  },
+  {
+    "id": 46,
+    "subject": "Environment",
+    "topic": "Pollution",
+    "difficulty": "Hard",
+    "question": "Which gas is the primary contributor to 'Acid Rain'?",
+    "options": [
+      "A) Carbon Monoxide",
+      "B) Nitrogen Dioxide",
+      "C) Sulfur Dioxide",
+      "D) Methane"
+    ],
+    "answer": "C) Sulfur Dioxide",
+    "explanation": "SO2 and NO2 react with water vapor to form acid rain."
+  },
+  {
+    "id": 47,
+    "subject": "Current Affairs",
+    "topic": "Schemes",
+    "difficulty": "Easy",
+    "question": "The 'Ujjwala Yojana' provides free:",
+    "options": [
+      "A) Electricity",
+      "B) LPG Connections",
+      "C) Water",
+      "D) Internet"
+    ],
+    "answer": "B) LPG Connections",
+    "explanation": "Pradhan Mantri Ujjwala Yojana provides LPG connections to BPL families."
+  },
+  {
+    "id": 48,
+    "subject": "Polity",
+    "topic": "Local Body",
+    "difficulty": "Hard",
+    "question": "Under the 74th Amendment, how many functional items are listed for Municipalities?",
+    "options": [
+      "A) 18",
+      "B) 22",
+      "C) 29",
+      "D) 12"
+    ],
+    "answer": "A) 18",
+    "explanation": "The 12th Schedule lists 18 functional items for Municipalities."
+  },
+  {
+    "id": 49,
+    "subject": "History",
+    "topic": "INC Sessions",
+    "difficulty": "Easy",
+    "question": "Who was the first woman President of the Indian National Congress?",
+    "options": [
+      "A) Sarojini Naidu",
+      "B) Annie Besant",
+      "C) Nellie Sengupta",
+      "D) Indira Gandhi"
+    ],
+    "answer": "B) Annie Besant",
+    "explanation": "Annie Besant presided over the 1917 Calcutta session."
+  },
+  {
+    "id": 50,
+    "subject": "Geography",
+    "topic": "Oceanography",
+    "difficulty": "Medium",
+    "question": "Which is the deepest trench in the world?",
+    "options": [
+      "A) Java Trench",
+      "B) Mariana Trench",
+      "C) Puerto Rico Trench",
+      "D) Tonga Trench"
+    ],
+    "answer": "B) Mariana Trench",
+    "explanation": "The Mariana Trench in the Pacific Ocean is the deepest part of Earth's oceans."
+  },
+  {
+    "id": 51,
+    "subject": "Economy",
+    "topic": "Stock Market",
+    "difficulty": "Hard",
+    "question": "What is the primary regulator of the securities market in India?",
+    "options": [
+      "A) RBI",
+      "B) SEBI",
+      "C) IRDA",
+      "D) PFRDA"
+    ],
+    "answer": "B) SEBI",
+    "explanation": "The Securities and Exchange Board of India (SEBI) regulates the stock market."
+  },
+  {
+    "id": 52,
+    "subject": "Polity",
+    "topic": "President",
+    "difficulty": "Medium",
+    "question": "Which Article of the Indian Constitution empowers the President to grant pardons?",
+    "options": [
+      "A) Article 72",
+      "B) Article 161",
+      "C) Article 123",
+      "D) Article 356"
+    ],
+    "answer": "A) Article 72",
+    "explanation": "Article 72 gives the President the power to grant pardons, reprieves, respites, or remissions of punishment."
+  },
+  {
+    "id": 53,
+    "subject": "Polity",
+    "topic": "Constitutional Sources",
+    "difficulty": "Easy",
+    "question": "The concept of 'Single Citizenship' in the Indian Constitution is borrowed from which country?",
+    "options": [
+      "A) USA",
+      "B) Britain",
+      "C) Canada",
+      "D) Ireland"
+    ],
+    "answer": "B) Britain",
+    "explanation": "India adopted the single citizenship model from the British Constitution to promote national unity."
+  },
+  {
+    "id": 54,
+    "subject": "Polity",
+    "topic": "Rajya Sabha",
+    "difficulty": "Easy",
+    "question": "Who is the ex-officio Chairman of the Rajya Sabha?",
+    "options": [
+      "A) The President",
+      "B) The Prime Minister",
+      "C) The Vice-President",
+      "D) The Speaker"
+    ],
+    "answer": "C) The Vice-President",
+    "explanation": "Under Article 64, the Vice-President of India is the ex-officio Chairman of the Council of States."
+  },
+  {
+    "id": 55,
+    "subject": "Polity",
+    "topic": "Local Government",
+    "difficulty": "Medium",
+    "question": "The 73rd Constitutional Amendment Act, 1992 is related to:",
+    "options": [
+      "A) Municipalities",
+      "B) Panchayati Raj",
+      "C) Fundamental Duties",
+      "D) Anti-defection Law"
+    ],
+    "answer": "B) Panchayati Raj",
+    "explanation": "This amendment gave constitutional status to Panchayati Raj institutions by adding Part IX to the Constitution."
+  },
+  {
+    "id": 56,
+    "subject": "Polity",
+    "topic": "Elections",
+    "difficulty": "Medium",
+    "question": "Which body is responsible for the conduct of elections to Corporations and Municipalities?",
+    "options": [
+      "A) Election Commission of India",
+      "B) State Election Commission",
+      "C) Ministry of Home Affairs",
+      "D) Governor of the State"
+    ],
+    "answer": "B) State Election Commission",
+    "explanation": "The State Election Commission manages local body elections, while ECI handles Parliament and State Assembly elections."
+  },
+  {
+    "id": 57,
+    "subject": "History",
+    "topic": "Colonial India",
+    "difficulty": "Hard",
+    "question": "The 'Inquisition' was first introduced in India by which European power?",
+    "options": [
+      "A) British",
+      "B) French",
+      "C) Portuguese",
+      "D) Dutch"
+    ],
+    "answer": "C) Portuguese",
+    "explanation": "The Goa Inquisition was established by the Portuguese in 1560 to enforce Catholic orthodoxy."
+  },
+  {
+    "id": 58,
+    "subject": "History",
+    "topic": "British India",
+    "difficulty": "Medium",
+    "question": "Who was the first Governor-General of Bengal?",
+    "options": [
+      "A) Robert Clive",
+      "B) Warren Hastings",
+      "C) Lord Cornwallis",
+      "D) William Bentinck"
+    ],
+    "answer": "B) Warren Hastings",
+    "explanation": "The Regulating Act of 1773 designated the Governor of Bengal as the Governor-General of Bengal."
+  },
+  {
+    "id": 59,
+    "subject": "History",
+    "topic": "National Movement",
+    "difficulty": "Medium",
+    "question": "The 'Lucknow Pact' (1916) was signed between:",
+    "options": [
+      "A) Moderates and Extremists",
+      "B) Congress and Muslim League",
+      "C) British and Indian Princes",
+      "D) Gandhi and Irwin"
+    ],
+    "answer": "B) Congress and Muslim League",
+    "explanation": "It was a joint agreement between the INC and the All-India Muslim League to demand self-government."
+  },
+  {
+    "id": 60,
+    "subject": "History",
+    "topic": "Indus Valley",
+    "difficulty": "Medium",
+    "question": "Which Harappan site is known for having a 'Dockyard'?",
+    "options": [
+      "A) Mohenjo-daro",
+      "B) Kalibangan",
+      "C) Lothal",
+      "D) Dholavira"
+    ],
+    "answer": "C) Lothal",
+    "explanation": "Lothal in modern-day Gujarat was a major port city with a sophisticated brick-built dockyard."
+  },
+  {
+    "id": 61,
+    "subject": "History",
+    "topic": "Press",
+    "difficulty": "Easy",
+    "question": "The newspaper 'Kesari' was started by:",
+    "options": [
+      "A) Lala Lajpat Rai",
+      "B) Bal Gangadhar Tilak",
+      "C) Bipin Chandra Pal",
+      "D) Gopal Krishna Gokhale"
+    ],
+    "answer": "B) Bal Gangadhar Tilak",
+    "explanation": "Tilak started 'Kesari' in Marathi to spread the message of Swaraj."
+  },
+  {
+    "id": 62,
+    "subject": "Geography",
+    "topic": "Indian Geography",
+    "difficulty": "Easy",
+    "question": "Which latitude passes through the center of India?",
+    "options": [
+      "A) Equator",
+      "B) Tropic of Capricorn",
+      "C) Tropic of Cancer",
+      "D) Arctic Circle"
+    ],
+    "answer": "C) Tropic of Cancer",
+    "explanation": "The Tropic of Cancer (23.5° N) passes through eight Indian states."
+  },
+  {
+    "id": 63,
+    "subject": "Geography",
+    "topic": "World Geography",
+    "difficulty": "Medium",
+    "question": "The 'Suez Canal' connects which two water bodies?",
+    "options": [
+      "A) Mediterranean Sea and Red Sea",
+      "B) Atlantic Ocean and Pacific Ocean",
+      "C) Red Sea and Arabian Sea",
+      "D) Mediterranean Sea and Black Sea"
+    ],
+    "answer": "A) Mediterranean Sea and Red Sea",
+    "explanation": "Opened in 1869, it provides a maritime route between Europe and the Indian Ocean."
+  },
+  {
+    "id": 64,
+    "subject": "Geography",
+    "topic": "Western Ghats",
+    "difficulty": "Medium",
+    "question": "Which is the highest peak in the Western Ghats?",
+    "options": [
+      "A) Doddabetta",
+      "B) Anamudi",
+      "C) Mahendragiri",
+      "D) Kalsubai"
+    ],
+    "answer": "B) Anamudi",
+    "explanation": "Located in Kerala, Anamudi is the highest peak in South India and the Western Ghats."
+  },
+  {
+    "id": 65,
+    "subject": "Geography",
+    "topic": "Time Zones",
+    "difficulty": "Easy",
+    "question": "'Standard Time' of India is calculated on the basis of which longitude?",
+    "options": [
+      "A) 80° E",
+      "B) 82.5° E",
+      "C) 85° E",
+      "D) 90° E"
+    ],
+    "answer": "B) 82.5° E",
+    "explanation": "The Indian Standard Meridian passes through Mirzapur, Uttar Pradesh."
+  },
+  {
+    "id": 66,
+    "subject": "Geography",
+    "topic": "Astronomy",
+    "difficulty": "Easy",
+    "question": "Which planet is known as the 'Morning Star' or 'Evening Star'?",
+    "options": [
+      "A) Mars",
+      "B) Venus",
+      "C) Mercury",
+      "D) Jupiter"
+    ],
+    "answer": "B) Venus",
+    "explanation": "Venus is the brightest planet in the night sky and is visible just before sunrise or after sunset."
+  },
+  {
+    "id": 67,
+    "subject": "Economy",
+    "topic": "Economic Laws",
+    "difficulty": "Hard",
+    "question": "'Gresham's Law' in economics refers to:",
+    "options": [
+      "A) Supply creates its own demand",
+      "B) Bad money drives out good money",
+      "C) Rent is a differential surplus",
+      "D) Population grows geometrically"
+    ],
+    "answer": "B) Bad money drives out good money",
+    "explanation": "It states that if two forms of money have the same face value, the more valuable one will disappear from circulation."
+  },
+  {
+    "id": 68,
+    "subject": "Economy",
+    "topic": "Banking",
+    "difficulty": "Medium",
+    "question": "Which institution is known as the 'Lender of Last Resort' in India?",
+    "options": [
+      "A) SBI",
+      "B) NABARD",
+      "C) RBI",
+      "D) Finance Ministry"
+    ],
+    "answer": "C) RBI",
+    "explanation": "The Reserve Bank of India provides emergency liquidity to commercial banks facing financial stress."
+  },
+  {
+    "id": 69,
+    "subject": "Economy",
+    "topic": "Revolutions",
+    "difficulty": "Easy",
+    "question": "The 'Blue Revolution' is associated with the production of:",
+    "options": [
+      "A) Indigo",
+      "B) Fish",
+      "C) Fertilizers",
+      "D) Milk"
+    ],
+    "answer": "B) Fish",
+    "explanation": "It refers to the rapid growth of global aquaculture production."
+  },
+  {
+    "id": 70,
+    "subject": "Economy",
+    "topic": "Concepts",
+    "difficulty": "Medium",
+    "question": "What is 'Stagflation'?",
+    "options": [
+      "A) High inflation with high growth",
+      "B) Low inflation with low growth",
+      "C) High inflation with low growth and high unemployment",
+      "D) Negative inflation with high growth"
+    ],
+    "answer": "C) High inflation with low growth and high unemployment",
+    "explanation": "It is a situation where the inflation rate is high while economic growth slows."
+  },
+  {
+    "id": 71,
+    "subject": "Economy",
+    "topic": "Budget",
+    "difficulty": "Medium",
+    "question": "Who presented the first Union Budget of Independent India?",
+    "options": [
+      "A) R.K. Shanmukham Chetty",
+      "B) John Mathai",
+      "C) C.D. Deshmukh",
+      "D) Morarji Desai"
+    ],
+    "answer": "A) R.K. Shanmukham Chetty",
+    "explanation": "He presented the first budget on November 26, 1947."
+  },
+  {
+    "id": 72,
+    "subject": "Science",
+    "topic": "Chemistry",
+    "difficulty": "Easy",
+    "question": "Which gas is commonly known as 'Laughing Gas'?",
+    "options": [
+      "A) Nitrogen Dioxide",
+      "B) Nitrous Oxide",
+      "C) Nitric Oxide",
+      "D) Nitrogen Pentoxide"
+    ],
+    "answer": "B) Nitrous Oxide",
+    "explanation": "Nitrous Oxide (N2O) is used in dentistry for its anaesthetic effects."
+  },
+  {
+    "id": 73,
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Medium",
+    "question": "The 'Bhopal Gas Tragedy' (1984) was caused by the leakage of:",
+    "options": [
+      "A) Ethyl Isocyanate",
+      "B) Methyl Isocyanate",
+      "C) Potassium Cyanide",
+      "D) Carbon Monoxide"
+    ],
+    "answer": "B) Methyl Isocyanate",
+    "explanation": "The leak occurred at the Union Carbide pesticide plant in Bhopal."
+  },
+  {
+    "id": 74,
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Easy",
+    "question": "What is the SI unit of Pressure?",
+    "options": [
+      "A) Newton",
+      "B) Joule",
+      "C) Pascal",
+      "D) Watt"
+    ],
+    "answer": "C) Pascal",
+    "explanation": "One Pascal (Pa) is defined as one Newton per square meter."
+  },
+  {
+    "id": 75,
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Easy",
+    "question": "Which vitamin is synthesized in the body in the presence of sunlight?",
+    "options": [
+      "A) Vitamin A",
+      "B) Vitamin B",
+      "C) Vitamin C",
+      "D) Vitamin D"
+    ],
+    "answer": "D) Vitamin D",
+    "explanation": "When skin is exposed to UVB rays, it triggers the synthesis of Vitamin D."
+  },
+  {
+    "id": 76,
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Medium",
+    "question": "'Optical Fibers' work on the principle of:",
+    "options": [
+      "A) Refraction",
+      "B) Scattering",
+      "C) Total Internal Reflection",
+      "D) Interference"
+    ],
+    "answer": "C) Total Internal Reflection",
+    "explanation": "Light signals travel through the fiber by constantly bouncing off the walls of the core."
+  },
+  {
+    "id": 77,
+    "subject": "Environment",
+    "topic": "Treaties",
+    "difficulty": "Hard",
+    "question": "The 'Montreal Protocol' (1987) relates to the protection of:",
+    "options": [
+      "A) Wetlands",
+      "B) Ozone Layer",
+      "C) Endangered Species",
+      "D) Tropical Forests"
+    ],
+    "answer": "B) Ozone Layer",
+    "explanation": "It is an international treaty designed to phase out substances responsible for ozone depletion."
+  },
+  {
+    "id": 78,
+    "subject": "Environment",
+    "topic": "Pollution",
+    "difficulty": "Medium",
+    "question": "What is the primary cause of 'Minamata Disease'?",
+    "options": [
+      "A) Lead poisoning",
+      "B) Cadmium poisoning",
+      "C) Mercury poisoning",
+      "D) Arsenic poisoning"
+    ],
+    "answer": "C) Mercury poisoning",
+    "explanation": "It was caused by the release of methylmercury in industrial wastewater in Japan."
+  },
+  {
+    "id": 79,
+    "subject": "Environment",
+    "topic": "Ecology",
+    "difficulty": "Medium",
+    "question": "'Eutrophication' is caused by the excess of which nutrients in water?",
+    "options": [
+      "A) Carbon and Oxygen",
+      "B) Nitrogen and Phosphorus",
+      "C) Calcium and Magnesium",
+      "D) Iron and Copper"
+    ],
+    "answer": "B) Nitrogen and Phosphorus",
+    "explanation": "Excess nutrients lead to algae blooms, which deplete oxygen in water bodies."
+  },
+  {
+    "id": 80,
+    "subject": "Environment",
+    "topic": "Parks",
+    "difficulty": "Easy",
+    "question": "Which is the first National Park established in India?",
+    "options": [
+      "A) Kanha National Park",
+      "B) Jim Corbett National Park",
+      "C) Kaziranga National Park",
+      "D) Gir National Park"
+    ],
+    "answer": "B) Jim Corbett National Park",
+    "explanation": "Established in 1936 in Uttarakhand, it was originally named Hailey National Park."
+  },
+  {
+    "id": 81,
+    "subject": "Environment",
+    "topic": "Pollution",
+    "difficulty": "Medium",
+    "question": "'Biological Oxygen Demand' (BOD) is a measure for:",
+    "options": [
+      "A) Air pollution",
+      "B) Water pollution",
+      "C) Noise pollution",
+      "D) Soil fertility"
+    ],
+    "answer": "B) Water pollution",
+    "explanation": "A higher BOD indicates a higher level of organic pollution in the water."
+  },
+  {
+    "id": 82,
+    "subject": "Maharashtra GK",
+    "topic": "Agriculture",
+    "difficulty": "Easy",
+    "question": "Which district of Maharashtra is known as the 'Grape Capital of India'?",
+    "options": [
+      "A) Pune",
+      "B) Nashik",
+      "C) Sangli",
+      "D) Solapur"
+    ],
+    "answer": "B) Nashik",
+    "explanation": "Nashik produces a significant portion of India's grape export."
+  },
+  {
+    "id": 83,
+    "subject": "Maharashtra GK",
+    "topic": "History",
+    "difficulty": "Easy",
+    "question": "Who was the first Chief Minister of Maharashtra?",
+    "options": [
+      "A) Yashwantrao Chavan",
+      "B) Vasantrao Naik",
+      "C) Sharad Pawar",
+      "D) Marotrao Kannamwar"
+    ],
+    "answer": "A) Yashwantrao Chavan",
+    "explanation": "He served as the first CM after the formation of the state on May 1, 1960."
+  },
+  {
+    "id": 84,
+    "subject": "Maharashtra GK",
+    "topic": "Culture",
+    "difficulty": "Easy",
+    "question": "The 'Ajanta Caves' are located in which district?",
+    "options": [
+      "A) Aurangabad",
+      "B) Jalgaon",
+      "C) Ratnagiri",
+      "D) Nagpur"
+    ],
+    "answer": "A) Aurangabad",
+    "explanation": "These are known for ancient Buddhist rock-cut architecture and paintings."
+  },
+  {
+    "id": 85,
+    "subject": "Maharashtra GK",
+    "topic": "Rivers",
+    "difficulty": "Easy",
+    "question": "Which river is known as the 'Dakshin Ganga'?",
+    "options": [
+      "A) Krishna",
+      "B) Godavari",
+      "C) Tapi",
+      "D) Narmada"
+    ],
+    "answer": "B) Godavari",
+    "explanation": "It is the largest river in Peninsular India and is considered sacred."
+  },
+  {
+    "id": 86,
+    "subject": "Maharashtra GK",
+    "topic": "Geography",
+    "difficulty": "Easy",
+    "question": "The highest peak in Maharashtra is:",
+    "options": [
+      "A) Salher",
+      "B) Mahabaleshwar",
+      "C) Kalsubai",
+      "D) Harishchandragad"
+    ],
+    "answer": "C) Kalsubai",
+    "explanation": "Standing at 1,646 meters, it is located in the Ahmednagar district."
+  },
+  {
+    "id": 87,
+    "subject": "General Awareness",
+    "topic": "Media",
+    "difficulty": "Medium",
+    "question": "'Yellow Journalism' refers to:",
+    "options": [
+      "A) Agricultural reporting",
+      "B) Investigative reporting",
+      "C) Sensationalist reporting",
+      "D) Sports journalism"
+    ],
+    "answer": "C) Sensationalist reporting",
+    "explanation": "It uses eye-catching headlines rather than facts to increase sales."
+  },
+  {
+    "id": 88,
+    "subject": "General Awareness",
+    "topic": "Awards",
+    "difficulty": "Easy",
+    "question": "The 'Nobel Prize' is NOT awarded in which field?",
+    "options": [
+      "A) Physics",
+      "B) Chemistry",
+      "C) Mathematics",
+      "D) Literature"
+    ],
+    "answer": "C) Mathematics",
+    "explanation": "The Fields Medal is often considered the equivalent for Mathematics."
+  },
+  {
+    "id": 89,
+    "subject": "General Awareness",
+    "topic": "Geography",
+    "difficulty": "Easy",
+    "question": "Which country is known as the 'Land of the Rising Sun'?",
+    "options": [
+      "A) China",
+      "B) Japan",
+      "C) Norway",
+      "D) Australia"
+    ],
+    "answer": "B) Japan",
+    "explanation": "The name 'Nippon' literally means 'the sun's origin'."
+  },
+  {
+    "id": 90,
+    "subject": "General Awareness",
+    "topic": "Organizations",
+    "difficulty": "Easy",
+    "question": "The 'International Court of Justice' is located in:",
+    "options": [
+      "A) New York",
+      "B) Geneva",
+      "C) The Hague",
+      "D) Paris"
+    ],
+    "answer": "C) The Hague",
+    "explanation": "It is the principal judicial organ of the United Nations in the Netherlands."
+  },
+  {
+    "id": 91,
+    "subject": "General Awareness",
+    "topic": "Literature",
+    "difficulty": "Easy",
+    "question": "Who wrote the book 'Discovery of India'?",
+    "options": [
+      "A) Mahatma Gandhi",
+      "B) Jawaharlal Nehru",
+      "C) Sardar Patel",
+      "D) Maulana Azad"
+    ],
+    "answer": "B) Jawaharlal Nehru",
+    "explanation": "He wrote it during his imprisonment at Ahmednagar Fort."
+  },
+  {
+    "id": 92,
+    "subject": "History",
+    "topic": "National Movement",
+    "difficulty": "Hard",
+    "question": "The 'Comagata Maru' incident (1914) was related to:",
+    "options": [
+      "A) A naval mutiny",
+      "B) A Japanese steamship carrying immigrants",
+      "C) A secret revolutionary society",
+      "D) A protest against the Rowlatt Act"
+    ],
+    "answer": "B) A Japanese steamship carrying immigrants",
+    "explanation": "The ship was turned back from Canada, leading to a clash in Kolkata."
+  },
+  {
+    "id": 93,
+    "subject": "Geography",
+    "topic": "Boundaries",
+    "difficulty": "Hard",
+    "question": "The 'Curzon Line' is a boundary between which countries?",
+    "options": [
+      "A) India and Pakistan",
+      "B) Poland and Russia",
+      "C) North Korea and South Korea",
+      "D) USA and Canada"
+    ],
+    "answer": "B) Poland and Russia",
+    "explanation": "It was proposed as an armistice line during the Russo-Polish War."
+  },
+  {
+    "id": 94,
+    "subject": "Polity",
+    "topic": "Schedules",
+    "difficulty": "Easy",
+    "question": "Which schedule of the Constitution contains the list of official languages?",
+    "options": [
+      "A) Seventh Schedule",
+      "B) Eighth Schedule",
+      "C) Ninth Schedule",
+      "D) Tenth Schedule"
+    ],
+    "answer": "B) Eighth Schedule",
+    "explanation": "The Eighth Schedule currently recognizes 22 official languages."
+  },
+  {
+    "id": 95,
+    "subject": "Economy",
+    "topic": "Inequality",
+    "difficulty": "Medium",
+    "question": "The 'Lorenz Curve' is used to measure:",
+    "options": [
+      "A) Inflation",
+      "B) Unemployment",
+      "C) Income inequality",
+      "D) Poverty line"
+    ],
+    "answer": "C) Income inequality",
+    "explanation": "It represents the cumulative distribution of income or wealth."
+  },
+  {
+    "id": 96,
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Medium",
+    "question": "Which subatomic particle was discovered by James Chadwick?",
+    "options": [
+      "A) Electron",
+      "B) Proton",
+      "C) Neutron",
+      "D) Positron"
+    ],
+    "answer": "C) Neutron",
+    "explanation": "Chadwick was awarded the Nobel Prize in Physics in 1935 for this discovery."
+  },
+  {
+    "id": 97,
+    "subject": "Economy",
+    "topic": "Regulation",
+    "difficulty": "Medium",
+    "question": "The 'Basel Norms' are associated with which sector?",
+    "options": [
+      "A) Environment",
+      "B) Banking",
+      "C) Telecommunication",
+      "D) Aviation"
+    ],
+    "answer": "B) Banking",
+    "explanation": "These are international regulatory standards for bank capital adequacy."
+  },
+  {
+    "id": 98,
+    "subject": "General Awareness",
+    "topic": "National Symbols",
+    "difficulty": "Easy",
+    "question": "'Banyan Tree' is the national tree of which country?",
+    "options": [
+      "A) Sri Lanka",
+      "B) Thailand",
+      "C) India",
+      "D) Bangladesh"
+    ],
+    "answer": "C) India",
+    "explanation": "The Banyan tree symbolizes eternal life and unity in India."
+  },
+  {
+    "id": 99,
+    "subject": "Economy",
+    "topic": "Indicators",
+    "difficulty": "Medium",
+    "question": "The 'Gini Coefficient' ranges from:",
+    "options": [
+      "A) -1 to 1",
+      "B) 0 to 1",
+      "C) 1 to 10",
+      "D) 0 to 100"
+    ],
+    "answer": "B) 0 to 1",
+    "explanation": "0 represents perfect equality, while 1 represents perfect inequality."
+  },
+  {
+    "id": 100,
+    "subject": "General Awareness",
+    "topic": "Sports",
+    "difficulty": "Easy",
+    "question": "'Deepika Kumari' is associated with which sport?",
+    "options": [
+      "A) Boxing",
+      "B) Wrestling",
+      "C) Archery",
+      "D) Shooting"
+    ],
+    "answer": "C) Archery",
+    "explanation": "She is a former world number one and a multiple-time Olympian in archery."
+  },
+  {
+    "id": 101,
+    "subject": "General Awareness",
+    "topic": "Government",
+    "difficulty": "Medium",
+    "question": "A 'White Paper' is a government document that:",
+    "options": [
+      "A) Records secret discussions",
+      "B) Proposes new policy for discussion",
+      "C) Lists criminals",
+      "D) Is used for diplomacy"
+    ],
+    "answer": "B) Proposes new policy for discussion",
+    "explanation": "It is an authoritative report informing readers about the government's philosophy on an issue."
+  },
+  {
+    "id": 102,
+    "subject": "Polity",
+    "topic": "Constitutional Amendment",
+    "difficulty": "Hard",
+    "question": "The 101st Constitutional Amendment Act, 2016 is related to:",
+    "options": [
+      "A) GST",
+      "B) EWS Reservation",
+      "C) Local Bodies",
+      "D) OBC Commission"
+    ],
+    "answer": "A) GST",
+    "explanation": "It introduced the Goods and Services Tax in India."
+  },
+  {
+    "id": 103,
+    "subject": "History",
+    "topic": "Ancient India",
+    "difficulty": "Medium",
+    "question": "The 'Sanchi Stupa' was built by which ruler?",
+    "options": [
+      "A) Chandragupta Maurya",
+      "B) Ashoka",
+      "C) Kanishka",
+      "D) Harsha"
+    ],
+    "answer": "B) Ashoka",
+    "explanation": "Emperor Ashoka commissioned the Great Stupa at Sanchi in the 3rd century BCE."
+  },
+  {
+    "id": 104,
+    "subject": "Geography",
+    "topic": "Atmosphere",
+    "difficulty": "Easy",
+    "question": "Which layer of the atmosphere is closest to Earth?",
+    "options": [
+      "A) Stratosphere",
+      "B) Mesosphere",
+      "C) Troposphere",
+      "D) Exosphere"
+    ],
+    "answer": "C) Troposphere",
+    "explanation": "The troposphere is the lowest layer where all weather phenomena occur."
+  },
+  {
+    "id": 105,
+    "subject": "Economy",
+    "topic": "Taxation",
+    "difficulty": "Easy",
+    "question": "Which of the following is a direct tax?",
+    "options": [
+      "A) Sales Tax",
+      "B) GST",
+      "C) Income Tax",
+      "D) Excise Duty"
+    ],
+    "answer": "C) Income Tax",
+    "explanation": "Income tax is paid directly by individuals to the government."
+  },
+  {
+    "id": 106,
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Medium",
+    "question": "Which part of the plant is responsible for photosynthesis?",
+    "options": [
+      "A) Roots",
+      "B) Stem",
+      "C) Leaves",
+      "D) Flowers"
+    ],
+    "answer": "C) Leaves",
+    "explanation": "Leaves contain chlorophyll which traps sunlight for photosynthesis."
+  },
+  {
+    "id": 107,
+    "subject": "Environment",
+    "topic": "Global Warming",
+    "difficulty": "Medium",
+    "question": "Which gas is primarily responsible for the greenhouse effect?",
+    "options": [
+      "A) Oxygen",
+      "B) Nitrogen",
+      "C) Carbon Dioxide",
+      "D) Argon"
+    ],
+    "answer": "C) Carbon Dioxide",
+    "explanation": "CO2 traps heat in the atmosphere, leading to global warming."
+  },
+  {
+    "id": 108,
+    "subject": "Polity",
+    "topic": "Judiciary",
+    "difficulty": "Medium",
+    "question": "Who appoints the Judges of the High Court?",
+    "options": [
+      "A) Chief Justice of India",
+      "B) Governor",
+      "C) President",
+      "D) Prime Minister"
+    ],
+    "answer": "C) President",
+    "explanation": "The President appoints High Court judges after consultation with the CJI and Governor."
+  },
+  {
+    "id": 109,
+    "subject": "History",
+    "topic": "Medieval India",
+    "difficulty": "Hard",
+    "question": "Who founded the 'Din-i-Ilahi'?",
+    "options": [
+      "A) Babur",
+      "B) Humayun",
+      "C) Akbar",
+      "D) Shah Jahan"
+    ],
+    "answer": "C) Akbar",
+    "explanation": "Akbar founded Din-i-Ilahi in 1582 as a syncretic religion."
+  },
+  {
+    "id": 110,
+    "subject": "Geography",
+    "topic": "Minerals",
+    "difficulty": "Medium",
+    "question": "Which Indian state is the leading producer of Iron Ore?",
+    "options": [
+      "A) Odisha",
+      "B) Jharkhand",
+      "C) Chhattisgarh",
+      "D) Karnataka"
+    ],
+    "answer": "A) Odisha",
+    "explanation": "Odisha is the largest producer of iron ore in India."
+  },
+  {
+    "id": 111,
+    "subject": "Economy",
+    "topic": "Banking",
+    "difficulty": "Easy",
+    "question": "What is the full form of ATM?",
+    "options": [
+      "A) All Time Money",
+      "B) Automated Teller Machine",
+      "C) Any Time Money",
+      "D) Automatic Tele-Machine"
+    ],
+    "answer": "B) Automated Teller Machine",
+    "explanation": "ATM stands for Automated Teller Machine."
+  },
+  {
+    "id": 112,
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Medium",
+    "question": "What is the speed of light in vacuum?",
+    "options": [
+      "A) 3 x 10^8 m/s",
+      "B) 3 x 10^6 m/s",
+      "C) 1.5 x 10^8 m/s",
+      "D) 3 x 10^10 m/s"
+    ],
+    "answer": "A) 3 x 10^8 m/s",
+    "explanation": "The speed of light is approximately 299,792,458 meters per second."
+  },
+  {
+    "id": 113,
+    "subject": "Environment",
+    "topic": "Conventions",
+    "difficulty": "Hard",
+    "question": "The 'Ramsar Convention' is related to the conservation of:",
+    "options": [
+      "A) Tigers",
+      "B) Wetlands",
+      "C) Coral Reefs",
+      "D) Forests"
+    ],
+    "answer": "B) Wetlands",
+    "explanation": "Ramsar Convention (1971) is an international treaty for wetland conservation."
+  },
+  {
+    "id": 114,
+    "subject": "Maharashtra GK",
+    "topic": "Forts",
+    "difficulty": "Medium",
+    "question": "Which fort was the first capital of Shivaji Maharaj's Swarajya?",
+    "options": [
+      "A) Raigad",
+      "B) Rajgad",
+      "C) Pratapgad",
+      "D) Shivneri"
+    ],
+    "answer": "B) Rajgad",
+    "explanation": "Rajgad served as the first capital of the Maratha Empire for 26 years."
+  },
+  {
+    "id": 115,
+    "subject": "General Awareness",
+    "topic": "Space",
+    "difficulty": "Easy",
+    "question": "Who was the first human to travel into space?",
+    "options": [
+      "A) Neil Armstrong",
+      "B) Yuri Gagarin",
+      "C) Buzz Aldrin",
+      "D) Rakesh Sharma"
+    ],
+    "answer": "B) Yuri Gagarin",
+    "explanation": "Yuri Gagarin (USSR) orbited the Earth in 1961."
+  },
+  {
+    "id": 116,
+    "subject": "Polity",
+    "topic": "Governor",
+    "difficulty": "Medium",
+    "question": "The Governor of a State is appointed by:",
+    "options": [
+      "A) Prime Minister",
+      "B) Chief Minister",
+      "C) President",
+      "D) Chief Justice of HC"
+    ],
+    "answer": "C) President",
+    "explanation": "Under Article 155, the Governor is appointed by the President."
+  },
+  {
+    "id": 117,
+    "subject": "History",
+    "topic": "Modern India",
+    "difficulty": "Medium",
+    "question": "Who was the first Governor-General of Independent India?",
+    "options": [
+      "A) Lord Mountbatten",
+      "B) C. Rajagopalachari",
+      "C) Rajendra Prasad",
+      "D) Vallabhbhai Patel"
+    ],
+    "answer": "A) Lord Mountbatten",
+    "explanation": "Lord Mountbatten served as the first GG, followed by C. Rajagopalachari."
+  },
+  {
+    "id": 118,
+    "subject": "Geography",
+    "topic": "Agriculture",
+    "difficulty": "Easy",
+    "question": "Which crop is known as 'Golden Fibre'?",
+    "options": [
+      "A) Cotton",
+      "B) Silk",
+      "C) Jute",
+      "D) Wool"
+    ],
+    "answer": "C) Jute",
+    "explanation": "Jute is called golden fibre due to its color and high value."
+  },
+  {
+    "id": 119,
+    "subject": "Economy",
+    "topic": "Planning",
+    "difficulty": "Medium",
+    "question": "In which year was NITI Aayog established?",
+    "options": [
+      "A) 2014",
+      "B) 2015",
+      "C) 2016",
+      "D) 2012"
+    ],
+    "answer": "B) 2015",
+    "explanation": "NITI Aayog replaced the Planning Commission on January 1, 2015."
+  },
+  {
+    "id": 120,
+    "subject": "Science",
+    "topic": "Chemistry",
+    "difficulty": "Easy",
+    "question": "What is the chemical formula for common salt?",
+    "options": [
+      "A) KCl",
+      "B) NaCl",
+      "C) NaOH",
+      "D) MgCl2"
+    ],
+    "answer": "B) NaCl",
+    "explanation": "Sodium Chloride (NaCl) is common table salt."
+  },
+  {
+    "id": 121,
+    "subject": "Environment",
+    "topic": "Wildlife",
+    "difficulty": "Medium",
+    "question": "Project Tiger was launched in India in:",
+    "options": [
+      "A) 1972",
+      "B) 1973",
+      "C) 1980",
+      "D) 1992"
+    ],
+    "answer": "B) 1973",
+    "explanation": "It was launched by the government to ensure a viable population of tigers."
+  },
+  {
+    "id": 122,
+    "subject": "Polity",
+    "topic": "Constitutional Amendment",
+    "difficulty": "Medium",
+    "question": "The voting age was reduced from 21 to 18 by which Amendment?",
+    "options": [
+      "A) 42nd",
+      "B) 44th",
+      "C) 61st",
+      "D) 73rd"
+    ],
+    "answer": "C) 61st",
+    "explanation": "The 61st Amendment Act, 1989 reduced the voting age."
+  },
+  {
+    "id": 123,
+    "subject": "History",
+    "topic": "Ancient India",
+    "difficulty": "Hard",
+    "question": "Who was the court poet of King Harshavardhana?",
+    "options": [
+      "A) Kalidasa",
+      "B) Banabhatta",
+      "C) Bhavabhuti",
+      "D) Bharavi"
+    ],
+    "answer": "B) Banabhatta",
+    "explanation": "Banabhatta wrote 'Harshacharita', the biography of Harsha."
+  },
+  {
+    "id": 124,
+    "subject": "Geography",
+    "topic": "Rivers",
+    "difficulty": "Medium",
+    "question": "Which river forms the 'Dhuandhar' falls?",
+    "options": [
+      "A) Narmada",
+      "B) Tapi",
+      "C) Godavari",
+      "D) Mahanadi"
+    ],
+    "answer": "A) Narmada",
+    "explanation": "The Narmada river creates these falls in Jabalpur, MP."
+  },
+  {
+    "id": 125,
+    "subject": "Economy",
+    "topic": "Employment",
+    "difficulty": "Easy",
+    "question": "MGNREGA was passed in which year?",
+    "options": [
+      "A) 2004",
+      "B) 2005",
+      "C) 2009",
+      "D) 2010"
+    ],
+    "answer": "B) 2005",
+    "explanation": "The National Rural Employment Guarantee Act was passed in Sept 2005."
+  },
+  {
+    "id": 126,
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Medium",
+    "question": "Which vitamin is necessary for blood clotting?",
+    "options": [
+      "A) Vitamin A",
+      "B) Vitamin C",
+      "C) Vitamin D",
+      "D) Vitamin K"
+    ],
+    "answer": "D) Vitamin K",
+    "explanation": "Vitamin K plays a critical role in blood coagulation."
+  },
+  {
+    "id": 127,
+    "subject": "Environment",
+    "topic": "Pollution",
+    "difficulty": "Medium",
+    "question": "Which gas leaked during the Bhopal Gas Tragedy?",
+    "options": [
+      "A) Methyl Isocyanate",
+      "B) Ethyl Isocyanate",
+      "C) Carbon Monoxide",
+      "D) Nitrous Oxide"
+    ],
+    "answer": "A) Methyl Isocyanate",
+    "explanation": "The 1984 tragedy involved the leak of MIC gas."
+  },
+  {
+    "id": 128,
+    "subject": "Polity",
+    "topic": "Preamble",
+    "difficulty": "Easy",
+    "question": "Which words were added to the Preamble by the 42nd Amendment?",
+    "options": [
+      "A) Sovereign, Socialist",
+      "B) Socialist, Secular, Integrity",
+      "C) Secular, Democratic",
+      "D) Republic, Unity"
+    ],
+    "answer": "B) Socialist, Secular, Integrity",
+    "explanation": "These three terms were added in 1976."
+  },
+  {
+    "id": 129,
+    "subject": "History",
+    "topic": "Modern India",
+    "difficulty": "Medium",
+    "question": "The 'Dandi March' began on:",
+    "options": [
+      "A) March 12, 1930",
+      "B) April 6, 1930",
+      "C) Jan 26, 1930",
+      "D) Aug 15, 1930"
+    ],
+    "answer": "A) March 12, 1930",
+    "explanation": "Gandhiji started the march from Sabarmati Ashram."
+  },
+  {
+    "id": 130,
+    "subject": "Geography",
+    "topic": "Mountains",
+    "difficulty": "Medium",
+    "question": "The 'Karakoram Pass' connects India with:",
+    "options": [
+      "A) China",
+      "B) Pakistan",
+      "C) Nepal",
+      "D) Bhutan"
+    ],
+    "answer": "A) China",
+    "explanation": "It is a mountain pass between the Karakoram Range of India and China."
+  },
+  {
+    "id": 131,
+    "subject": "Economy",
+    "topic": "Taxation",
+    "difficulty": "Medium",
+    "question": "In India, GST is a ______ tax.",
+    "options": [
+      "A) Direct",
+      "B) Indirect",
+      "C) Progressive",
+      "D) Proportional"
+    ],
+    "answer": "B) Indirect",
+    "explanation": "GST is a multi-stage, destination-based indirect tax."
+  },
+  {
+    "id": 132,
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Easy",
+    "question": "What is the unit of power?",
+    "options": [
+      "A) Joule",
+      "B) Newton",
+      "C) Watt",
+      "D) Volt"
+    ],
+    "answer": "C) Watt",
+    "explanation": "Power is the rate of doing work, measured in Watts."
+  },
+  {
+    "id": 133,
+    "subject": "Environment",
+    "topic": "Biodiversity",
+    "difficulty": "Medium",
+    "question": "World Environment Day is celebrated on:",
+    "options": [
+      "A) June 5",
+      "B) July 11",
+      "C) Sept 16",
+      "D) Dec 1"
+    ],
+    "answer": "A) June 5",
+    "explanation": "June 5th is the primary day for global environmental awareness."
+  },
+  {
+    "id": 134,
+    "subject": "Polity",
+    "topic": "Fundamental Rights",
+    "difficulty": "Medium",
+    "question": "The 'Right to Property' was removed from FRs by which Amendment?",
+    "options": [
+      "A) 42nd",
+      "B) 44th",
+      "C) 24th",
+      "D) 25th"
+    ],
+    "answer": "B) 44th",
+    "explanation": "The 44th Amendment (1978) turned it into a legal right under Art 300A."
+  },
+  {
+    "id": 135,
+    "subject": "History",
+    "topic": "Medieval India",
+    "difficulty": "Medium",
+    "question": "The 'Iqtadari System' was introduced by:",
+    "options": [
+      "A) Aibak",
+      "B) Iltutmish",
+      "C) Balban",
+      "D) Alauddin"
+    ],
+    "answer": "B) Iltutmish",
+    "explanation": "Shamsuddin Iltutmish introduced the system for land distribution."
+  },
+  {
+    "id": 136,
+    "subject": "Geography",
+    "topic": "Soil",
+    "difficulty": "Easy",
+    "question": "Which soil is best for tea cultivation?",
+    "options": [
+      "A) Black Soil",
+      "B) Laterite Soil",
+      "C) Alluvial Soil",
+      "D) Red Soil"
+    ],
+    "answer": "B) Laterite Soil",
+    "explanation": "Laterite soil is rich in iron and aluminum and good for tea/coffee."
+  },
+  {
+    "id": 137,
+    "subject": "Economy",
+    "topic": "Banking",
+    "difficulty": "Medium",
+    "question": "What is the current Repo Rate in India? (As of 2024)",
+    "options": [
+      "A) 4.0%",
+      "B) 6.5%",
+      "C) 5.15%",
+      "D) 6.25%"
+    ],
+    "answer": "B) 6.5%",
+    "explanation": "The RBI maintains the repo rate as part of its monetary policy."
+  },
+  {
+    "id": 138,
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Easy",
+    "question": "The largest gland in the human body is:",
+    "options": [
+      "A) Pancreas",
+      "B) Thyroid",
+      "C) Liver",
+      "D) Adrenal"
+    ],
+    "answer": "C) Liver",
+    "explanation": "The liver is the largest internal organ and gland."
+  },
+  {
+    "id": 139,
+    "subject": "Environment",
+    "topic": "Forests",
+    "difficulty": "Medium",
+    "question": "Which Indian state has the largest forest cover by area?",
+    "options": [
+      "A) Arunachal Pradesh",
+      "B) Madhya Pradesh",
+      "C) Mizoram",
+      "D) Chhattisgarh"
+    ],
+    "answer": "B) Madhya Pradesh",
+    "explanation": "According to ISFR, MP has the largest forest area in India."
+  },
+  {
+    "id": 140,
+    "subject": "Polity",
+    "topic": "Parliament",
+    "difficulty": "Medium",
+    "question": "What is the maximum strength of Lok Sabha as per the Constitution?",
+    "options": [
+      "A) 545",
+      "B) 550",
+      "C) 552",
+      "D) 530"
+    ],
+    "answer": "C) 552",
+    "explanation": "The maximum strength is 552 (530 States + 20 UTs + 2 Nominated)."
+  },
+  {
+    "id": 141,
+    "subject": "History",
+    "topic": "Modern India",
+    "difficulty": "Easy",
+    "question": "Who gave the slogan 'Swaraj is my birthright'?",
+    "options": [
+      "A) Tilak",
+      "B) Gandhi",
+      "C) Nehru",
+      "D) Bhagat Singh"
+    ],
+    "answer": "A) Tilak",
+    "explanation": "Bal Gangadhar Tilak used this slogan to advocate for self-rule."
+  },
+  {
+    "id": 142,
+    "subject": "Geography",
+    "topic": "Islands",
+    "difficulty": "Medium",
+    "question": "The 'Ten Degree Channel' separates:",
+    "options": [
+      "A) India and Sri Lanka",
+      "B) Andaman and Nicobar Islands",
+      "C) Lakshadweep and Maldives",
+      "D) Sumatra and Java"
+    ],
+    "answer": "B) Andaman and Nicobar Islands",
+    "explanation": "It is a channel that separates the Andaman Islands and Nicobar Islands."
+  },
+  {
+    "id": 143,
+    "subject": "Economy",
+    "topic": "Inflation",
+    "difficulty": "Medium",
+    "question": "In India, inflation is primarily measured by:",
+    "options": [
+      "A) WPI",
+      "B) CPI",
+      "C) GDP Deflator",
+      "D) IIP"
+    ],
+    "answer": "B) CPI",
+    "explanation": "Consumer Price Index (Combined) is the main measure of inflation in India."
+  },
+  {
+    "id": 144,
+    "subject": "Science",
+    "topic": "Chemistry",
+    "difficulty": "Medium",
+    "question": "Which gas is used in fire extinguishers?",
+    "options": [
+      "A) Oxygen",
+      "B) Nitrogen",
+      "C) Carbon Dioxide",
+      "D) Hydrogen"
+    ],
+    "answer": "C) Carbon Dioxide",
+    "explanation": "CO2 displaces oxygen and smothers the fire."
+  },
+  {
+    "id": 145,
+    "subject": "Environment",
+    "topic": "Ozone",
+    "difficulty": "Easy",
+    "question": "World Ozone Day is celebrated on:",
+    "options": [
+      "A) Sept 16",
+      "B) Oct 16",
+      "C) Nov 16",
+      "D) Dec 16"
+    ],
+    "answer": "A) Sept 16",
+    "explanation": "It marks the anniversary of the signing of the Montreal Protocol."
+  },
+  {
+    "id": 146,
+    "subject": "Polity",
+    "topic": "Supreme Court",
+    "difficulty": "Hard",
+    "question": "Which Article allows the SC to review its own judgments?",
+    "options": [
+      "A) Art 137",
+      "B) Art 141",
+      "C) Art 143",
+      "D) Art 142"
+    ],
+    "answer": "A) Art 137",
+    "explanation": "Article 137 gives the Supreme Court power to review any judgment or order."
+  },
+  {
+    "id": 147,
+    "subject": "History",
+    "topic": "Ancient India",
+    "difficulty": "Medium",
+    "question": "The first Buddhist Council was held at:",
+    "options": [
+      "A) Vaishali",
+      "B) Rajgriha",
+      "C) Pataliputra",
+      "D) Kashmir"
+    ],
+    "answer": "B) Rajgriha",
+    "explanation": "It was held shortly after the Buddha's death under Ajatashatru's patronage."
+  },
+  {
+    "id": 148,
+    "subject": "Geography",
+    "topic": "Energy",
+    "difficulty": "Medium",
+    "question": "Which Indian state has the highest wind energy capacity?",
+    "options": [
+      "A) Tamil Nadu",
+      "B) Gujarat",
+      "C) Maharashtra",
+      "D) Rajasthan"
+    ],
+    "answer": "B) Gujarat",
+    "explanation": "Gujarat currently leads India in installed wind energy capacity."
+  },
+  {
+    "id": 149,
+    "subject": "Economy",
+    "topic": "Trade",
+    "difficulty": "Easy",
+    "question": "Where is the head office of the WTO located?",
+    "options": [
+      "A) New York",
+      "B) Geneva",
+      "C) Paris",
+      "D) Vienna"
+    ],
+    "answer": "B) Geneva",
+    "explanation": "The World Trade Organization is headquartered in Geneva, Switzerland."
+  },
+  {
+    "id": 150,
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Hard",
+    "question": "The smallest bone in the human body is:",
+    "options": [
+      "A) Femur",
+      "B) Tibia",
+      "C) Stapes",
+      "D) Humerus"
+    ],
+    "answer": "C) Stapes",
+    "explanation": "The stapes is a bone in the middle ear."
+  },
+  {
+    "id": 151,
+    "subject": "Environment",
+    "topic": "Biodiversity",
+    "difficulty": "Hard",
+    "question": "Who coined the term 'Biodiversity Hotspot'?",
+    "options": [
+      "A) Norman Myers",
+      "B) E.O. Wilson",
+      "C) Tansley",
+      "D) Mobius"
+    ],
+    "answer": "A) Norman Myers",
+    "explanation": "Norman Myers developed the hotspot concept in 1988."
+  },
+  {
+    "id": 152,
+    "subject": "Polity",
+    "topic": "Constitutional Bodies",
+    "difficulty": "Medium",
+    "question": "The Comptroller and Auditor General (CAG) of India is appointed under which Article?",
+    "options": [
+      "A) Article 148",
+      "B) Article 153",
+      "C) Article 280",
+      "D) Article 324"
+    ],
+    "answer": "A) Article 148",
+    "explanation": "Article 148 provides for an independent office of the CAG, the guardian of the public purse."
+  },
+  {
+    "id": 153,
+    "subject": "History",
+    "topic": "Ancient India",
+    "difficulty": "Hard",
+    "question": "Which among the following was the capital of the Vatsa Mahajanapada?",
+    "options": [
+      "A) Kashi",
+      "B) Mathura",
+      "C) Kausambi",
+      "D) Viratnagar"
+    ],
+    "answer": "C) Kausambi",
+    "explanation": "Vatsa was located in present-day Allahabad, and Kausambi was its thriving capital."
+  },
+  {
+    "id": 154,
+    "subject": "Geography",
+    "topic": "Climate",
+    "difficulty": "Medium",
+    "question": "What is the phenomenon of 'Loo' in the context of the Indian climate?",
+    "options": [
+      "A) A cold wave in winter",
+      "B) Hot and dry winds in summer",
+      "C) Tropical cyclones",
+      "D) Pre-monsoon showers"
+    ],
+    "answer": "B) Hot and dry winds in summer",
+    "explanation": "Loo is a strong, dusty, hot, and dry summer wind from the west which blows over the Indo-Gangetic Plain."
+  },
+  {
+    "id": 155,
+    "subject": "Science",
+    "topic": "Chemistry",
+    "difficulty": "Medium",
+    "question": "Which of the following is also known as 'Galvanized Iron'?",
+    "options": [
+      "A) Iron coated with Tin",
+      "B) Iron coated with Zinc",
+      "C) Iron mixed with Carbon",
+      "D) Iron coated with Copper"
+    ],
+    "answer": "B) Iron coated with Zinc",
+    "explanation": "Galvanization is the process of applying a protective zinc coating to steel or iron to prevent rusting."
+  },
+  {
+    "id": 156,
+    "subject": "Economy",
+    "topic": "Industry",
+    "difficulty": "Easy",
+    "question": "The 'Maharatna' status is associated with which of the following?",
+    "options": [
+      "A) Private companies",
+      "B) Public Sector Undertakings",
+      "C) NGOs",
+      "D) Banking Institutions"
+    ],
+    "answer": "B) Public Sector Undertakings",
+    "explanation": "Maharatna status is granted to CPSEs to empower them to expand their operations and emerge as global giants."
+  },
+  {
+    "id": 157,
+    "subject": "Environment",
+    "topic": "Ecology",
+    "difficulty": "Medium",
+    "question": "The transition zone between two distinct ecosystems is known as:",
+    "options": [
+      "A) Ecotone",
+      "B) Ecotype",
+      "C) Ecosphere",
+      "D) Edge effect"
+    ],
+    "answer": "A) Ecotone",
+    "explanation": "An ecotone is an area where two communities meet and integrate, such as a marshland between a river and a riverbank."
+  },
+  {
+    "id": 158,
+    "subject": "Polity",
+    "topic": "Official Language",
+    "difficulty": "Medium",
+    "question": "Which Article provides for the Hindi language in Devanagari script to be the official language of the Union?",
+    "options": [
+      "A) Article 343",
+      "B) Article 351",
+      "C) Article 348",
+      "D) Article 350"
+    ],
+    "answer": "A) Article 343",
+    "explanation": "Article 343 (1) specifies Hindi in Devanagari script as the official language of the Union."
+  },
+  {
+    "id": 159,
+    "subject": "History",
+    "topic": "Medieval India",
+    "difficulty": "Medium",
+    "question": "The 'Jaziya' was reintroduced by which Mughal Emperor?",
+    "options": [
+      "A) Jahangir",
+      "B) Shah Jahan",
+      "C) Aurangzeb",
+      "D) Bahadur Shah"
+    ],
+    "answer": "C) Aurangzeb",
+    "explanation": "Aurangzeb reintroduced Jaziya in 1679, reversing Akbar's policy of abolition."
+  },
+  {
+    "id": 160,
+    "subject": "Geography",
+    "topic": "Oceanography",
+    "difficulty": "Hard",
+    "question": "The 'Kuroshio' is a ______ ocean current.",
+    "options": [
+      "A) Cold",
+      "B) Warm",
+      "C) Neutral",
+      "D) Deep-sea"
+    ],
+    "answer": "B) Warm",
+    "explanation": "The Kuroshio is a warm north-flowing ocean current on the west side of the North Pacific Ocean."
+  },
+  {
+    "id": 161,
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Medium",
+    "question": "Which tissue transports food from the leaves to other parts of the plant?",
+    "options": [
+      "A) Xylem",
+      "B) Phloem",
+      "C) Parenchyma",
+      "D) Sclerenchyma"
+    ],
+    "answer": "B) Phloem",
+    "explanation": "Xylem transports water and minerals, while Phloem transports prepared food."
+  },
+  {
+    "id": 162,
+    "subject": "Polity",
+    "topic": "Election Commission",
+    "difficulty": "Easy",
+    "question": "The National Voters' Day is celebrated in India on:",
+    "options": [
+      "A) Jan 25",
+      "B) Aug 15",
+      "C) Jan 26",
+      "D) Nov 26"
+    ],
+    "answer": "A) Jan 25",
+    "explanation": "It has been celebrated since 2011 to mark the foundation day of the Election Commission (Jan 25, 1950)."
+  },
+  {
+    "id": 163,
+    "subject": "History",
+    "topic": "Social Reform",
+    "difficulty": "Medium",
+    "question": "Who founded the 'Satyashodhak Samaj'?",
+    "options": [
+      "A) Dr. B.R. Ambedkar",
+      "B) Jyotiba Phule",
+      "C) Periyar",
+      "D) Narayana Guru"
+    ],
+    "answer": "B) Jyotiba Phule",
+    "explanation": "Phule founded Satyashodhak Samaj (1873) in Maharashtra to advocate for the rights of lower castes."
+  },
+  {
+    "id": 164,
+    "subject": "Geography",
+    "topic": "World Geography",
+    "difficulty": "Medium",
+    "question": "The 'Gobi Desert' is located in which continent?",
+    "options": [
+      "A) Africa",
+      "B) Asia",
+      "C) South America",
+      "D) Australia"
+    ],
+    "answer": "B) Asia",
+    "explanation": "The Gobi Desert covers parts of northern China and southern Mongolia."
+  },
+  {
+    "id": 165,
+    "subject": "Economy",
+    "topic": "Currency",
+    "difficulty": "Easy",
+    "question": "Who designed the Indian Rupee symbol (₹)?",
+    "options": [
+      "A) Udaya Kumar Dharmalingam",
+      "B) Raghuram Rajan",
+      "C) Nandan Nilekani",
+      "D) Amitabh Kant"
+    ],
+    "answer": "A) Udaya Kumar Dharmalingam",
+    "explanation": "The symbol was adopted by the Government of India on 15 July 2010."
+  },
+  {
+    "id": 166,
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Medium",
+    "question": "The phenomenon of 'Dispersion' is seen in which of the following?",
+    "options": [
+      "A) Rainbow",
+      "B) Mirror reflection",
+      "C) Shadow formation",
+      "D) Echo"
+    ],
+    "answer": "A) Rainbow",
+    "explanation": "Dispersion is the splitting of white light into its constituent colors when passing through a prism (or water droplets)."
+  },
+  {
+    "id": 167,
+    "subject": "Environment",
+    "topic": "Pollution",
+    "difficulty": "Medium",
+    "question": "The 'Fly Ash' is a byproduct of which of the following?",
+    "options": [
+      "A) Nuclear power plants",
+      "B) Thermal power plants",
+      "C) Hydroelectric plants",
+      "D) Wind energy"
+    ],
+    "answer": "B) Thermal power plants",
+    "explanation": "Fly ash is produced by burning powdered coal in thermal power plants."
+  },
+  {
+    "id": 168,
+    "subject": "Polity",
+    "topic": "Attorney General",
+    "difficulty": "Medium",
+    "question": "Who is the first law officer of the Government of India?",
+    "options": [
+      "A) Law Minister",
+      "B) Chief Justice",
+      "C) Attorney General",
+      "D) Solicitor General"
+    ],
+    "answer": "C) Attorney General",
+    "explanation": "The Attorney General (Art 76) is the highest law officer in the country."
+  },
+  {
+    "id": 169,
+    "subject": "History",
+    "topic": "Modern India",
+    "difficulty": "Hard",
+    "question": "The 'Ghadar Party' was founded in which city?",
+    "options": [
+      "A) Berlin",
+      "B) San Francisco",
+      "C) London",
+      "D) Tokyo"
+    ],
+    "answer": "B) San Francisco",
+    "explanation": "It was founded by Lala Hardayal in 1913 in the USA to overthrow British rule."
+  },
+  {
+    "id": 170,
+    "subject": "Geography",
+    "topic": "Atmosphere",
+    "difficulty": "Medium",
+    "question": "Which layer of the atmosphere reflects radio waves?",
+    "options": [
+      "A) Troposphere",
+      "B) Stratosphere",
+      "C) Ionosphere",
+      "D) Exosphere"
+    ],
+    "answer": "C) Ionosphere",
+    "explanation": "The Ionosphere (part of Thermosphere) contains ions that reflect radio signals back to Earth."
+  },
+  {
+    "id": 171,
+    "subject": "Economy",
+    "topic": "Institutions",
+    "difficulty": "Medium",
+    "question": "Where is the head office of 'IRDAI' located?",
+    "options": [
+      "A) Mumbai",
+      "B) New Delhi",
+      "C) Hyderabad",
+      "D) Chennai"
+    ],
+    "answer": "C) Hyderabad",
+    "explanation": "The Insurance Regulatory and Development Authority of India was shifted from Delhi to Hyderabad in 2001."
+  },
+  {
+    "id": 172,
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Medium",
+    "question": "Which organ in the human body produces 'Insulin'?",
+    "options": [
+      "A) Liver",
+      "B) Pancreas",
+      "C) Spleen",
+      "D) Gall bladder"
+    ],
+    "answer": "B) Pancreas",
+    "explanation": "The Islets of Langerhans in the pancreas secrete insulin to regulate blood sugar."
+  },
+  {
+    "id": 173,
+    "subject": "Environment",
+    "topic": "Biodiversity",
+    "difficulty": "Medium",
+    "question": "The 'Red Data Book' is published by:",
+    "options": [
+      "A) WWF",
+      "B) IUCN",
+      "C) UNESCO",
+      "D) UNEP"
+    ],
+    "answer": "B) IUCN",
+    "explanation": "The IUCN Red List tracks the conservation status of biological species worldwide."
+  },
+  {
+    "id": 174,
+    "subject": "Polity",
+    "topic": "Schedules",
+    "difficulty": "Medium",
+    "question": "The 'Anti-Defection Law' was added by which Schedule?",
+    "options": [
+      "A) 9th Schedule",
+      "B) 10th Schedule",
+      "C) 11th Schedule",
+      "D) 12th Schedule"
+    ],
+    "answer": "B) 10th Schedule",
+    "explanation": "It was added by the 52nd Amendment Act of 1985."
+  },
+  {
+    "id": 175,
+    "subject": "History",
+    "topic": "Ancient India",
+    "difficulty": "Hard",
+    "question": "The 'Sudarsana Lake' was repaired during the reign of which Shaka ruler?",
+    "options": [
+      "A) Maues",
+      "B) Rudradaman I",
+      "C) Gondophernes",
+      "D) Azes"
+    ],
+    "answer": "B) Rudradaman I",
+    "explanation": "The Junagadh inscription mentions the repair of the lake without levying taxes."
+  },
+  {
+    "id": 176,
+    "subject": "Geography",
+    "topic": "Energy",
+    "difficulty": "Medium",
+    "question": "Which of the following is a 'Tidal Power' project site in India?",
+    "options": [
+      "A) Gulf of Kutch",
+      "B) Chilika Lake",
+      "C) Dal Lake",
+      "D) Pulicat Lake"
+    ],
+    "answer": "A) Gulf of Kutch",
+    "explanation": "The Gulf of Kutch and Gulf of Khambhat have high potential for tidal energy."
+  },
+  {
+    "id": 177,
+    "subject": "Economy",
+    "topic": "Stock Market",
+    "difficulty": "Easy",
+    "question": "What is 'Bull Market'?",
+    "options": [
+      "A) Falling stock prices",
+      "B) Rising stock prices",
+      "C) Stagnant prices",
+      "D) No trading session"
+    ],
+    "answer": "B) Rising stock prices",
+    "explanation": "A bull market is a period of generally rising prices in a financial market."
+  },
+  {
+    "id": 178,
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Medium",
+    "question": "What is the escape velocity for the Earth?",
+    "options": [
+      "A) 7.2 km/s",
+      "B) 9.8 km/s",
+      "C) 11.2 km/s",
+      "D) 15 km/s"
+    ],
+    "answer": "C) 11.2 km/s",
+    "explanation": "It is the minimum speed needed for an object to break free from Earth's gravitational pull."
+  },
+  {
+    "id": 179,
+    "subject": "Environment",
+    "topic": "Climate Change",
+    "difficulty": "Easy",
+    "question": "The 'Greenhouse Effect' was first discovered by:",
+    "options": [
+      "A) Joseph Fourier",
+      "B) John Tyndall",
+      "C) Svante Arrhenius",
+      "D) James Hansen"
+    ],
+    "answer": "A) Joseph Fourier",
+    "explanation": "Fourier identified the greenhouse effect in 1824."
+  },
+  {
+    "id": 180,
+    "subject": "Polity",
+    "topic": "Fundamental Rights",
+    "difficulty": "Hard",
+    "question": "Which Article provides for the 'Protection against arrest and detention in certain cases'?",
+    "options": [
+      "A) Article 20",
+      "B) Article 21",
+      "C) Article 22",
+      "D) Article 23"
+    ],
+    "answer": "C) Article 22",
+    "explanation": "Article 22 grants rights to persons who are arrested, including the right to be informed of grounds."
+  },
+  {
+    "id": 181,
+    "subject": "History",
+    "topic": "National Movement",
+    "difficulty": "Hard",
+    "question": "Who founded the 'Servants of India Society'?",
+    "options": [
+      "A) G.K. Gokhale",
+      "B) M.G. Ranade",
+      "C) B.G. Tilak",
+      "D) V.D. Savarkar"
+    ],
+    "answer": "A) G.K. Gokhale",
+    "explanation": "Gokhale founded it in 1905 to train Indians to devote themselves to the service of the country."
+  },
+  {
+    "id": 182,
+    "subject": "Geography",
+    "topic": "Planets",
+    "difficulty": "Easy",
+    "question": "Which planet has the most moons in the solar system? (As of 2024)",
+    "options": [
+      "A) Jupiter",
+      "B) Saturn",
+      "C) Uranus",
+      "D) Neptune"
+    ],
+    "answer": "B) Saturn",
+    "explanation": "Saturn leads with 146 moons, surpassing Jupiter's 95."
+  },
+  {
+    "id": 183,
+    "subject": "Economy",
+    "topic": "Poverty",
+    "difficulty": "Medium",
+    "question": "The 'Larkdawala Committee' was related to the estimation of:",
+    "options": [
+      "A) Unemployment",
+      "B) Poverty",
+      "C) Industrial growth",
+      "D) Export-Import"
+    ],
+    "answer": "B) Poverty",
+    "explanation": "The committee (1993) gave a methodology for estimating poverty using CPI-IW and CPI-AL."
+  },
+  {
+    "id": 184,
+    "subject": "Science",
+    "topic": "Chemistry",
+    "difficulty": "Medium",
+    "question": "What is the primary gas found in 'LPG'?",
+    "options": [
+      "A) Methane",
+      "B) Ethane",
+      "C) Propane and Butane",
+      "D) Hydrogen"
+    ],
+    "answer": "C) Propane and Butane",
+    "explanation": "LPG is a mixture of flammable hydrocarbon gases, primarily propane and butane."
+  },
+  {
+    "id": 185,
+    "subject": "Environment",
+    "topic": "Sustainability",
+    "difficulty": "Hard",
+    "question": "The 'Earth Summit' (1992) was held in:",
+    "options": [
+      "A) Stockholm",
+      "B) Rio de Janeiro",
+      "C) Johannesburg",
+      "D) Nairobi"
+    ],
+    "answer": "B) Rio de Janeiro",
+    "explanation": "The UN Conference on Environment and Development (UNCED) is popularly known as the Rio Summit."
+  },
+  {
+    "id": 186,
+    "subject": "Polity",
+    "topic": "Parliament",
+    "difficulty": "Medium",
+    "question": "What is the minimum age to become a member of Rajya Sabha?",
+    "options": [
+      "A) 25 years",
+      "B) 30 years",
+      "C) 35 years",
+      "D) 21 years"
+    ],
+    "answer": "B) 30 years",
+    "explanation": "For Lok Sabha it is 25, and for Rajya Sabha it is 30 years."
+  },
+  {
+    "id": 187,
+    "subject": "History",
+    "topic": "Medieval India",
+    "difficulty": "Medium",
+    "question": "Who was the author of 'Kitab-ul-Hind'?",
+    "options": [
+      "A) Al-Biruni",
+      "B) Ibn Battuta",
+      "C) Amir Khusrau",
+      "D) Firdausi"
+    ],
+    "answer": "A) Al-Biruni",
+    "explanation": "Al-Biruni came to India with Mahmud of Ghazni and wrote this detailed account."
+  },
+  {
+    "id": 188,
+    "subject": "Geography",
+    "topic": "Indian Rivers",
+    "difficulty": "Medium",
+    "question": "Which river is known as 'Tsangpo' in Tibet?",
+    "options": [
+      "A) Indus",
+      "B) Brahmaputra",
+      "C) Sutlej",
+      "D) Teesta"
+    ],
+    "answer": "B) Brahmaputra",
+    "explanation": "It originates in Tibet as Yarlung Tsangpo and enters India through Arunachal Pradesh."
+  },
+  {
+    "id": 189,
+    "subject": "Economy",
+    "topic": "National Income",
+    "difficulty": "Hard",
+    "question": "NNP at Factor Cost is also known as:",
+    "options": [
+      "A) Personal Income",
+      "B) National Income",
+      "C) Disposable Income",
+      "D) Gross National Product"
+    ],
+    "answer": "B) National Income",
+    "explanation": "Net National Product at factor cost reflects the total value of all goods and services produced by residents."
+  },
+  {
+    "id": 190,
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Medium",
+    "question": "Which blood group is known as the 'Universal Donor'?",
+    "options": [
+      "A) A+",
+      "B) B+",
+      "C) AB+",
+      "D) O-"
+    ],
+    "answer": "D) O-",
+    "explanation": "O negative blood can be given to patients with any blood type in emergencies."
+  },
+  {
+    "id": 191,
+    "subject": "Environment",
+    "topic": "Forestry",
+    "difficulty": "Medium",
+    "question": "The 'Chipko Movement' was associated with the protection of:",
+    "options": [
+      "A) Tigers",
+      "B) Wetlands",
+      "C) Trees",
+      "D) Rivers"
+    ],
+    "answer": "C) Trees",
+    "explanation": "It started in the 1970s in Uttarakhand where villagers hugged trees to prevent felling."
+  },
+  {
+    "id": 192,
+    "subject": "Polity",
+    "topic": "Emergency",
+    "difficulty": "Medium",
+    "question": "Under which Article can 'Financial Emergency' be declared?",
+    "options": [
+      "A) Article 352",
+      "B) Article 356",
+      "C) Article 360",
+      "D) Article 368"
+    ],
+    "answer": "C) Article 360",
+    "explanation": "Financial Emergency has never been declared in India to date."
+  },
+  {
+    "id": 193,
+    "subject": "History",
+    "topic": "Ancient India",
+    "difficulty": "Medium",
+    "question": "Who was the founder of the 'Pala Dynasty'?",
+    "options": [
+      "A) Dharmapala",
+      "B) Gopala",
+      "C) Devapala",
+      "D) Mahipala"
+    ],
+    "answer": "B) Gopala",
+    "explanation": "Gopala founded the dynasty in 750 AD in the Bengal region."
+  },
+  {
+    "id": 194,
+    "subject": "Geography",
+    "topic": "Soil",
+    "difficulty": "Medium",
+    "question": "Which soil is also known as 'Self-ploughed soil'?",
+    "options": [
+      "A) Alluvial Soil",
+      "B) Red Soil",
+      "C) Black Soil",
+      "D) Desert Soil"
+    ],
+    "answer": "C) Black Soil",
+    "explanation": "Black soil develops deep cracks when dry, facilitating aeration, which is called self-ploughing."
+  },
+  {
+    "id": 195,
+    "subject": "Economy",
+    "topic": "Global Trade",
+    "difficulty": "Easy",
+    "question": "The 'Special Economic Zones' (SEZ) Act was passed in India in:",
+    "options": [
+      "A) 2000",
+      "B) 2005",
+      "C) 2010",
+      "D) 2015"
+    ],
+    "answer": "B) 2005",
+    "explanation": "The SEZ Act 2005 aimed at promoting exports and generating employment."
+  },
+  {
+    "id": 196,
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Medium",
+    "question": "What is the unit of 'Luminous Intensity'?",
+    "options": [
+      "A) Mole",
+      "B) Candela",
+      "C) Kelvin",
+      "D) Lux"
+    ],
+    "answer": "B) Candela",
+    "explanation": "Candela (cd) is the SI base unit of luminous intensity."
+  },
+  {
+    "id": 197,
+    "subject": "Environment",
+    "topic": "Ecology",
+    "difficulty": "Medium",
+    "question": "Who coined the term 'Ecosystem'?",
+    "options": [
+      "A) A.G. Tansley",
+      "B) Ernst Haeckel",
+      "C) Charles Darwin",
+      "D) Eugene Odum"
+    ],
+    "answer": "A) A.G. Tansley",
+    "explanation": "Tansley coined the term in 1935 to describe the interaction between organisms and environment."
+  },
+  {
+    "id": 198,
+    "subject": "Polity",
+    "topic": "President",
+    "difficulty": "Medium",
+    "question": "Who was the only President of India to be elected unopposed?",
+    "options": [
+      "A) Dr. Rajendra Prasad",
+      "B) Neelam Sanjiva Reddy",
+      "C) V.V. Giri",
+      "D) Zakir Hussain"
+    ],
+    "answer": "B) Neelam Sanjiva Reddy",
+    "explanation": "He was elected unopposed in 1977."
+  },
+  {
+    "id": 199,
+    "subject": "History",
+    "topic": "Modern India",
+    "difficulty": "Hard",
+    "question": "The 'Indian Association' was founded by whom in 1876?",
+    "options": [
+      "A) Surendranath Banerjee and A.M. Bose",
+      "B) Dadabhai Naoroji",
+      "C) A.O. Hume",
+      "D) W.C. Bonnerjee"
+    ],
+    "answer": "A) Surendranath Banerjee and A.M. Bose",
+    "explanation": "It was the first avowed nationalist organization founded in British India."
+  },
+  {
+    "id": 200,
+    "subject": "Geography",
+    "topic": "Boundaries",
+    "difficulty": "Easy",
+    "question": "The 'Durand Line' is the boundary between:",
+    "options": [
+      "A) India and China",
+      "B) Pakistan and Afghanistan",
+      "C) India and Nepal",
+      "D) India and Myanmar"
+    ],
+    "answer": "B) Pakistan and Afghanistan",
+    "explanation": "Established in 1893, it remains a contested border today."
+  },
+  {
+    "id": 201,
+    "subject": "Economy",
+    "topic": "Banking",
+    "difficulty": "Medium",
+    "question": "What is the 'Cash Reserve Ratio' (CRR)?",
+    "options": [
+      "A) Gold reserves of the bank",
+      "B) Percentage of deposits banks must keep with RBI",
+      "C) Interest rate on home loans",
+      "D) Foreign exchange reserves"
+    ],
+    "answer": "B) Percentage of deposits banks must keep with RBI",
+    "explanation": "CRR is a tool used by the RBI to regulate liquidity in the economy."
+  },
+  {
+    "id": 202,
+    "subject": "Polity",
+    "topic": "Constitutional Framework",
+    "difficulty": "Medium",
+    "question": "The 'Concurrent List' in the Indian Constitution was borrowed from which country?",
+    "options": [
+      "A) Canada",
+      "B) Australia",
+      "C) USA",
+      "D) Ireland"
+    ],
+    "answer": "B) Australia",
+    "explanation": "The Concurrent List consists of items on which both central and state governments can make laws.",
+    "question_code": "EXAM-1201"
+  },
+  {
+    "id": 203,
+    "subject": "History",
+    "topic": "Ancient India",
+    "difficulty": "Medium",
+    "question": "Who was the author of the 'Indica'?",
+    "options": [
+      "A) Megasthenes",
+      "B) Fahien",
+      "C) Hiuen Tsang",
+      "D) Ptolemy"
+    ],
+    "answer": "A) Megasthenes",
+    "explanation": "Megasthenes was a Greek ambassador in the court of Chandragupta Maurya.",
+    "question_code": "EXAM-1202"
+  },
+  {
+    "id": 204,
+    "subject": "Geography",
+    "topic": "Indian Geography",
+    "difficulty": "Easy",
+    "question": "Which city is known as the 'Silicon Valley of India'?",
+    "options": [
+      "A) Hyderabad",
+      "B) Pune",
+      "C) Bengaluru",
+      "D) Chennai"
+    ],
+    "answer": "C) Bengaluru",
+    "explanation": "Bengaluru is the hub of India's IT industry.",
+    "question_code": "EXAM-1203"
+  },
+  {
+    "id": 205,
+    "subject": "Economy",
+    "topic": "Banking",
+    "difficulty": "Hard",
+    "question": "What is the 'Base Rate' in banking?",
+    "options": [
+      "A) The rate at which RBI lends to banks",
+      "B) The minimum interest rate a bank can charge its customers",
+      "C) The rate of inflation",
+      "D) The interest rate on fixed deposits"
+    ],
+    "answer": "B) The minimum interest rate a bank can charge its customers",
+    "explanation": "Banks are generally not allowed to lend below the base rate.",
+    "question_code": "EXAM-1204"
+  },
+  {
+    "id": 206,
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Medium",
+    "question": "The sound travels fastest in which medium?",
+    "options": [
+      "A) Vacuum",
+      "B) Air",
+      "C) Water",
+      "D) Steel"
+    ],
+    "answer": "D) Steel",
+    "explanation": "Sound travels faster in solids because particles are more tightly packed than in liquids or gases.",
+    "question_code": "EXAM-1205"
+  },
+  {
+    "id": 207,
+    "subject": "Environment",
+    "topic": "Ecology",
+    "difficulty": "Medium",
+    "question": "Which of the following is a 'Primary Consumer' in a food chain?",
+    "options": [
+      "A) Lion",
+      "B) Cow",
+      "C) Snake",
+      "D) Vulture"
+    ],
+    "answer": "B) Cow",
+    "explanation": "Primary consumers are herbivores that feed directly on producers (plants).",
+    "question_code": "EXAM-1206"
+  },
+  {
+    "id": 208,
+    "subject": "Polity",
+    "topic": "Fundamental Rights",
+    "difficulty": "Medium",
+    "question": "Article 32 of the Indian Constitution deals with:",
+    "options": [
+      "A) Right to Life",
+      "B) Right to Equality",
+      "C) Right to Constitutional Remedies",
+      "D) Cultural and Educational Rights"
+    ],
+    "answer": "C) Right to Constitutional Remedies",
+    "explanation": "Article 32 allows citizens to move the Supreme Court for enforcement of rights.",
+    "question_code": "EXAM-1207"
+  },
+  {
+    "id": 209,
+    "subject": "History",
+    "topic": "Indian National Movement",
+    "difficulty": "Hard",
+    "question": "The 'Poona Pact' (1932) was signed between:",
+    "options": [
+      "A) Gandhi and Irwin",
+      "B) Gandhi and Ambedkar",
+      "C) Nehru and Jinnah",
+      "D) Tilak and Annie Besant"
+    ],
+    "answer": "B) Gandhi and Ambedkar",
+    "explanation": "It was signed to provide reserved seats for depressed classes in provincial legislatures.",
+    "question_code": "EXAM-1208"
+  },
+  {
+    "id": 210,
+    "subject": "Geography",
+    "topic": "World Geography",
+    "difficulty": "Medium",
+    "question": "The 'Panama Canal' connects which two oceans?",
+    "options": [
+      "A) Atlantic and Indian",
+      "B) Indian and Pacific",
+      "C) Atlantic and Pacific",
+      "D) Arctic and Atlantic"
+    ],
+    "answer": "C) Atlantic and Pacific",
+    "explanation": "The Panama Canal is an artificial 82 km waterway in Panama that connects the Atlantic Ocean with the Pacific Ocean.",
+    "question_code": "EXAM-1209"
+  },
+  {
+    "id": 211,
+    "subject": "Economy",
+    "topic": "Taxation",
+    "difficulty": "Easy",
+    "question": "Which tax was replaced by the Goods and Services Tax (GST)?",
+    "options": [
+      "A) Wealth Tax",
+      "B) Income Tax",
+      "C) VAT",
+      "D) Corporation Tax"
+    ],
+    "answer": "C) VAT",
+    "explanation": "GST replaced several indirect taxes like VAT, Service tax, and Central Excise Duty.",
+    "question_code": "EXAM-1210"
+  },
+  {
+    "id": 212,
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Medium",
+    "question": "Which vitamin is synthesized in the human body in the presence of sunlight?",
+    "options": [
+      "A) Vitamin A",
+      "B) Vitamin B",
+      "C) Vitamin C",
+      "D) Vitamin D"
+    ],
+    "answer": "D) Vitamin D",
+    "explanation": "The skin produces Vitamin D when exposed to ultraviolet radiation from sunlight.",
+    "question_code": "EXAM-1211"
+  },
+  {
+    "id": 213,
+    "subject": "Environment",
+    "topic": "Biodiversity",
+    "difficulty": "Hard",
+    "question": "The 'Nagoya Protocol' is related to:",
+    "options": [
+      "A) Ozone depletion",
+      "B) Genetic Resources",
+      "C) Persistent Organic Pollutants",
+      "D) Climate Change"
+    ],
+    "answer": "B) Genetic Resources",
+    "explanation": "The Nagoya Protocol on Access to Genetic Resources and the Fair and Equitable Sharing of Benefits Arising from their Utilization.",
+    "question_code": "EXAM-1212"
+  },
+  {
+    "id": 214,
+    "subject": "Polity",
+    "topic": "Judiciary",
+    "difficulty": "Medium",
+    "question": "Who appoints the Chief Justice of India?",
+    "options": [
+      "A) Prime Minister",
+      "B) Parliament",
+      "C) President",
+      "D) Law Minister"
+    ],
+    "answer": "C) President",
+    "explanation": "The Chief Justice of India is appointed by the President of India under Article 124.",
+    "question_code": "EXAM-1213"
+  },
+  {
+    "id": 215,
+    "subject": "History",
+    "topic": "Medieval India",
+    "difficulty": "Medium",
+    "question": "The 'Buland Darwaza' was built by Akbar to commemorate his victory over:",
+    "options": [
+      "A) Bengal",
+      "B) Gujarat",
+      "C) Rajputana",
+      "D) Deccan"
+    ],
+    "answer": "B) Gujarat",
+    "explanation": "It was built in 1575 AD at Fatehpur Sikri.",
+    "question_code": "EXAM-1214"
+  },
+  {
+    "id": 216,
+    "subject": "Geography",
+    "topic": "Indian Geography",
+    "difficulty": "Easy",
+    "question": "Which river flows through a 'Rift Valley' in India?",
+    "options": [
+      "A) Ganga",
+      "B) Narmada",
+      "C) Krishna",
+      "D) Cauvery"
+    ],
+    "answer": "B) Narmada",
+    "explanation": "The Narmada and Tapti rivers flow through rift valleys between the Vindhya and Satpura ranges.",
+    "question_code": "EXAM-1215"
+  },
+  {
+    "id": 217,
+    "subject": "Economy",
+    "topic": "Banking",
+    "difficulty": "Medium",
+    "question": "What is 'Liquidity Adjustment Facility' (LAF)?",
+    "options": [
+      "A) A tool for long term loans",
+      "B) A tool to manage short term liquidity",
+      "C) A tool for bank mergers",
+      "D) A tool for agricultural credit"
+    ],
+    "answer": "B) A tool to manage short term liquidity",
+    "explanation": "LAF allows banks to borrow money through repurchase agreements (repos) or to lend money to the RBI through reverse repo agreements.",
+    "question_code": "EXAM-1216"
+  },
+  {
+    "id": 218,
+    "subject": "Science",
+    "topic": "Chemistry",
+    "difficulty": "Easy",
+    "question": "Which of the following is the 'Hardest' substance available on Earth?",
+    "options": [
+      "A) Gold",
+      "B) Iron",
+      "C) Diamond",
+      "D) Platinum"
+    ],
+    "answer": "C) Diamond",
+    "explanation": "Diamond is an allotrope of carbon where each carbon atom is bonded to four other carbon atoms in a tetrahedral structure, making it extremely hard.",
+    "question_code": "EXAM-1217"
+  },
+  {
+    "id": 219,
+    "subject": "Environment",
+    "topic": "Ecology",
+    "difficulty": "Medium",
+    "question": "The term 'Bio-magnification' refers to:",
+    "options": [
+      "A) Increase in biodiversity",
+      "B) Increase in population",
+      "C) Increase in concentration of toxic substances in a food chain",
+      "D) Study of large animals"
+    ],
+    "answer": "C) Increase in concentration of toxic substances in a food chain",
+    "explanation": "Toxic substances like mercury or DDT become more concentrated at each successive trophic level.",
+    "question_code": "EXAM-1218"
+  },
+  {
+    "id": 220,
+    "subject": "Polity",
+    "topic": "Elections",
+    "difficulty": "Medium",
+    "question": "The 'NOTA' (None of the Above) option was first introduced in Indian elections in:",
+    "options": [
+      "A) 2011",
+      "B) 2012",
+      "C) 2013",
+      "D) 2014"
+    ],
+    "answer": "C) 2013",
+    "explanation": "It was introduced following a Supreme Court judgment in 2013.",
+    "question_code": "EXAM-1219"
+  },
+  {
+    "id": 221,
+    "subject": "History",
+    "topic": "Ancient India",
+    "difficulty": "Hard",
+    "question": "Who was the founder of the 'Pala Dynasty' of Bengal?",
+    "options": [
+      "A) Dharmapala",
+      "B) Devapala",
+      "C) Gopala",
+      "D) Mahipala"
+    ],
+    "answer": "C) Gopala",
+    "explanation": "Gopala founded the Pala Empire in the 8th century.",
+    "question_code": "EXAM-1220"
+  },
+  {
+    "id": 222,
+    "subject": "Geography",
+    "topic": "Climate",
+    "difficulty": "Medium",
+    "question": "What are 'Trade Winds'?",
+    "options": [
+      "A) Seasonal winds",
+      "B) Local winds",
+      "C) Permanent winds",
+      "D) Variable winds"
+    ],
+    "answer": "C) Permanent winds",
+    "explanation": "Trade winds are the prevailing pattern of easterly surface winds found in the tropics.",
+    "question_code": "EXAM-1221"
+  },
+  {
+    "id": 223,
+    "subject": "Economy",
+    "topic": "Taxation",
+    "difficulty": "Easy",
+    "question": "Who is the Chairman of the 'GST Council' in India?",
+    "options": [
+      "A) Prime Minister",
+      "B) RBI Governor",
+      "C) Union Finance Minister",
+      "D) Comptroller and Auditor General"
+    ],
+    "answer": "C) Union Finance Minister",
+    "explanation": "The GST Council is a constitutional body for making recommendations on issues related to the implementation of GST.",
+    "question_code": "EXAM-1222"
+  },
+  {
+    "id": 224,
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Medium",
+    "question": "What is the escape velocity from the surface of the Earth?",
+    "options": [
+      "A) 7.2 km/s",
+      "B) 9.8 km/s",
+      "C) 11.2 km/s",
+      "D) 15 km/s"
+    ],
+    "answer": "C) 11.2 km/s",
+    "explanation": "Escape velocity is the minimum speed needed for a free, non-propelled object to escape from the gravitational influence of a massive body.",
+    "question_code": "EXAM-1223"
+  },
+  {
+    "id": 225,
+    "subject": "Environment",
+    "topic": "Biodiversity",
+    "difficulty": "Medium",
+    "question": "In which state is the 'Kaziranga National Park' located?",
+    "options": [
+      "A) West Bengal",
+      "B) Assam",
+      "C) Odisha",
+      "D) Bihar"
+    ],
+    "answer": "B) Assam",
+    "explanation": "Kaziranga is famous for its one-horned rhinoceroses and is a UNESCO World Heritage Site.",
+    "question_code": "EXAM-1224"
+  },
+  {
+    "id": 226,
+    "subject": "Polity",
+    "topic": "Constitutional Framework",
+    "difficulty": "Medium",
+    "question": "The 'Panchayati Raj' system was first inaugurated in which district of Rajasthan?",
+    "options": [
+      "A) Bikaner",
+      "B) Jaipur",
+      "C) Nagaur",
+      "D) Jodhpur"
+    ],
+    "answer": "C) Nagaur",
+    "explanation": "It was inaugurated by Pt. Jawaharlal Nehru on October 2, 1959.",
+    "question_code": "EXAM-1225"
+  },
+  {
+    "id": 227,
+    "subject": "History",
+    "topic": "Maharashtra History",
+    "difficulty": "Hard",
+    "question": "Who was known as 'Lokhitwadi'?",
+    "options": [
+      "A) Gopal Hari Deshmukh",
+      "B) Bal Gangadhar Tilak",
+      "C) M.G. Ranade",
+      "D) Dadabhai Naoroji"
+    ],
+    "answer": "A) Gopal Hari Deshmukh",
+    "explanation": "He was a social reformer and writer in Maharashtra who advocated for modernization and social justice.",
+    "question_code": "EXAM-1226"
+  },
+  {
+    "id": 228,
+    "subject": "Geography",
+    "topic": "World Geography",
+    "difficulty": "Easy",
+    "question": "Which is the smallest continent in the world by land area?",
+    "options": [
+      "A) Europe",
+      "B) South America",
+      "C) Australia",
+      "D) Antarctica"
+    ],
+    "answer": "C) Australia",
+    "explanation": "Australia is the smallest continent and the largest island in the world.",
+    "question_code": "EXAM-1227"
+  },
+  {
+    "id": 229,
+    "subject": "Economy",
+    "topic": "Banking",
+    "difficulty": "Medium",
+    "question": "The 'CRR' (Cash Reserve Ratio) is fixed by:",
+    "options": [
+      "A) Individual Banks",
+      "B) Finance Ministry",
+      "C) RBI",
+      "D) SEBI"
+    ],
+    "answer": "C) RBI",
+    "explanation": "CRR is the share of a bank's total deposit that is mandated by the Reserve Bank of India to be maintained with the latter in the form of liquid cash.",
+    "question_code": "EXAM-1228"
+  },
+  {
+    "id": 230,
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Easy",
+    "question": "The 'Universal Donor' blood group is:",
+    "options": [
+      "A) A",
+      "B) B",
+      "C) AB",
+      "D) O"
+    ],
+    "answer": "D) O",
+    "explanation": "Blood group O is known as the universal donor because it does not have A or B antigens on the red blood cells.",
+    "question_code": "EXAM-1229"
+  },
+  {
+    "id": 231,
+    "subject": "Environment",
+    "topic": "Ecology",
+    "difficulty": "Medium",
+    "question": "Which gas is released during the 'Photosynthesis' process?",
+    "options": [
+      "A) Carbon dioxide",
+      "B) Oxygen",
+      "C) Nitrogen",
+      "D) Methane"
+    ],
+    "answer": "B) Oxygen",
+    "explanation": "Plants take in carbon dioxide and release oxygen during the process of photosynthesis.",
+    "question_code": "EXAM-1230"
+  },
+  {
+    "id": 232,
+    "subject": "Polity",
+    "topic": "Fundamental Rights",
+    "difficulty": "Medium",
+    "question": "Which Article of the Constitution prohibits 'Untouchability'?",
+    "options": [
+      "A) Article 14",
+      "B) Article 15",
+      "C) Article 17",
+      "D) Article 18"
+    ],
+    "answer": "C) Article 17",
+    "explanation": "Article 17 abolishes 'Untouchability' and its practice in any form is forbidden.",
+    "question_code": "EXAM-1231"
+  },
+  {
+    "id": 233,
+    "subject": "History",
+    "topic": "Indian National Movement",
+    "difficulty": "Medium",
+    "question": "Who gave the slogan 'Do or Die' during the Quit India Movement?",
+    "options": [
+      "A) Subhash Chandra Bose",
+      "B) Jawaharlal Nehru",
+      "C) Mahatma Gandhi",
+      "D) Sardar Patel"
+    ],
+    "answer": "C) Mahatma Gandhi",
+    "explanation": "Gandhi gave this call in 1942 at the Gowalia Tank Maidan in Mumbai.",
+    "question_code": "EXAM-1232"
+  },
+  {
+    "id": 234,
+    "subject": "Geography",
+    "topic": "Indian Geography",
+    "difficulty": "Easy",
+    "question": "Which is the largest fresh water lake in India?",
+    "options": [
+      "A) Chilika Lake",
+      "B) Wular Lake",
+      "C) Dal Lake",
+      "D) Pulicat Lake"
+    ],
+    "answer": "B) Wular Lake",
+    "explanation": "Wular Lake is located in Jammu and Kashmir and is one of the largest freshwater lakes in Asia.",
+    "question_code": "EXAM-1233"
+  },
+  {
+    "id": 235,
+    "subject": "Economy",
+    "topic": "Taxation",
+    "difficulty": "Hard",
+    "question": "What is 'Tobin Tax'?",
+    "options": [
+      "A) Tax on property",
+      "B) Tax on income",
+      "C) Tax on spot currency conversions",
+      "D) Tax on luxuries"
+    ],
+    "answer": "C) Tax on spot currency conversions",
+    "explanation": "It was proposed by James Tobin to reduce short-term currency speculation.",
+    "question_code": "EXAM-1234"
+  },
+  {
+    "id": 236,
+    "subject": "Science",
+    "topic": "Chemistry",
+    "difficulty": "Medium",
+    "question": "What is the main component of 'LPG' (Liquefied Petroleum Gas)?",
+    "options": [
+      "A) Methane",
+      "B) Ethane",
+      "C) Propane and Butane",
+      "D) Hydrogen"
+    ],
+    "answer": "C) Propane and Butane",
+    "explanation": "LPG is a mixture of flammable hydrocarbon gases, primarily propane and butane.",
+    "question_code": "EXAM-1235"
+  },
+  {
+    "id": 237,
+    "subject": "Environment",
+    "topic": "Biodiversity",
+    "difficulty": "Medium",
+    "question": "The 'Silent Valley' National Park is located in which state?",
+    "options": [
+      "A) Tamil Nadu",
+      "B) Kerala",
+      "C) Karnataka",
+      "D) Andhra Pradesh"
+    ],
+    "answer": "B) Kerala",
+    "explanation": "Silent Valley is known for its rare species of flora and fauna, including the lion-tailed macaque.",
+    "question_code": "EXAM-1236"
+  },
+  {
+    "id": 238,
+    "subject": "Polity",
+    "topic": "Judiciary",
+    "difficulty": "Medium",
+    "question": "The 'Power of Judicial Review' in India is borrowed from which country?",
+    "options": [
+      "A) UK",
+      "B) USA",
+      "C) Canada",
+      "D) Ireland"
+    ],
+    "answer": "B) USA",
+    "explanation": "Judicial review is the power of the courts to examine the actions of the legislative, executive, and administrative arms of the government.",
+    "question_code": "EXAM-1237"
+  },
+  {
+    "id": 239,
+    "subject": "History",
+    "topic": "Medieval India",
+    "difficulty": "Medium",
+    "question": "Who was the author of 'Tabaqat-i-Nasiri'?",
+    "options": [
+      "A) Minhaj-i-Siraj",
+      "B) Amir Khusrau",
+      "C) Ziauddin Barani",
+      "D) Ibn Battuta"
+    ],
+    "answer": "A) Minhaj-i-Siraj",
+    "explanation": "It is an elaborate history of the Islamic world written in Persian.",
+    "question_code": "EXAM-1238"
+  },
+  {
+    "id": 240,
+    "subject": "Geography",
+    "topic": "Climate",
+    "difficulty": "Hard",
+    "question": "What is 'Loo' in the context of Indian climate?",
+    "options": [
+      "A) A cold winter wind",
+      "B) A summer hot and dry wind",
+      "C) A tropical cyclone",
+      "D) Pre-monsoon showers"
+    ],
+    "answer": "B) A summer hot and dry wind",
+    "explanation": "Loo is a strong, dusty, hot and dry summer wind from the west which blows over the western Indo-Gangetic Plain region.",
+    "question_code": "EXAM-1239"
+  },
+  {
+    "id": 241,
+    "subject": "Economy",
+    "topic": "Banking",
+    "difficulty": "Easy",
+    "question": "What is the 'Full form of ATM'?",
+    "options": [
+      "A) Automated Teller Machine",
+      "B) Any Time Money",
+      "C) Advanced Transaction Mechanism",
+      "D) Automatic Tele-Machine"
+    ],
+    "answer": "A) Automated Teller Machine",
+    "explanation": "It is an electronic telecommunications device that enables customers of financial institutions to perform financial transactions.",
+    "question_code": "EXAM-1240"
+  },
+  {
+    "id": 242,
+    "subject": "Science",
+    "topic": "Physics",
+    "difficulty": "Medium",
+    "question": "Which lens is used to correct 'Myopia' (Short-sightedness)?",
+    "options": [
+      "A) Convex Lens",
+      "B) Concave Lens",
+      "C) Bifocal Lens",
+      "D) Cylindrical Lens"
+    ],
+    "answer": "B) Concave Lens",
+    "explanation": "Myopia is corrected by using a diverging lens (concave lens).",
+    "question_code": "EXAM-1241"
+  },
+  {
+    "id": 243,
+    "subject": "Environment",
+    "topic": "Ecology",
+    "difficulty": "Easy",
+    "question": "Which of the following is an example of an 'Abiotic' component of an ecosystem?",
+    "options": [
+      "A) Plants",
+      "B) Animals",
+      "C) Bacteria",
+      "D) Soil"
+    ],
+    "answer": "D) Soil",
+    "explanation": "Abiotic components are non-living chemical and physical parts of the environment.",
+    "question_code": "EXAM-1242"
+  },
+  {
+    "id": 244,
+    "subject": "Polity",
+    "topic": "Elections",
+    "difficulty": "Medium",
+    "question": "The 'Voter Verifiable Paper Audit Trail' (VVPAT) was first used in which state?",
+    "options": [
+      "A) Goa",
+      "B) Nagaland",
+      "C) Kerala",
+      "D) Gujarat"
+    ],
+    "answer": "B) Nagaland",
+    "explanation": "VVPAT was first used in the Noksen assembly constituency of Nagaland in 2013.",
+    "question_code": "EXAM-1243"
+  },
+  {
+    "id": 245,
+    "subject": "History",
+    "topic": "Ancient India",
+    "difficulty": "Hard",
+    "question": "The 'Sudarshana Lake' was repaired during the reign of which Shaka ruler?",
+    "options": [
+      "A) Maues",
+      "B) Rudradaman I",
+      "C) Gondophernes",
+      "D) Azes I"
+    ],
+    "answer": "B) Rudradaman I",
+    "explanation": "The Junagadh inscription mentions the repair of the lake without levying any tax on the people.",
+    "question_code": "EXAM-1244"
+  },
+  {
+    "id": 246,
+    "subject": "Geography",
+    "topic": "World Geography",
+    "difficulty": "Medium",
+    "question": "Which is the longest river in Asia?",
+    "options": [
+      "A) Indus",
+      "B) Yangtze",
+      "C) Mekong",
+      "D) Brahmaputra"
+    ],
+    "answer": "B) Yangtze",
+    "explanation": "The Yangtze River in China is the third-longest river in the world and the longest in Asia.",
+    "question_code": "EXAM-1245"
+  },
+  {
+    "id": 247,
+    "subject": "Economy",
+    "topic": "Taxation",
+    "difficulty": "Medium",
+    "question": "The 'Goods and Services Tax' (GST) in India was implemented on:",
+    "options": [
+      "A) 1st January 2017",
+      "B) 1st April 2017",
+      "C) 1st July 2017",
+      "D) 1st August 2017"
+    ],
+    "answer": "C) 1st July 2017",
+    "explanation": "It was launched at midnight on 1 July 2017 by the President and Prime Minister of India.",
+    "question_code": "EXAM-1246"
+  },
+  {
+    "id": 248,
+    "subject": "Science",
+    "topic": "Biology",
+    "difficulty": "Easy",
+    "question": "Which part of the cell is known as the 'Powerhouse' of the cell?",
+    "options": [
+      "A) Nucleus",
+      "B) Ribosome",
+      "C) Mitochondria",
+      "D) Golgi Bodies"
+    ],
+    "answer": "C) Mitochondria",
+    "explanation": "Mitochondria generate most of the chemical energy needed to power the cell's biochemical reactions.",
+    "question_code": "EXAM-1247"
+  },
+  {
+    "id": 249,
+    "subject": "Environment",
+    "topic": "Biodiversity",
+    "difficulty": "Medium",
+    "question": "The 'World Environment Day' is celebrated on:",
+    "options": [
+      "A) 22nd April",
+      "B) 5th June",
+      "C) 16th September",
+      "D) 2nd December"
+    ],
+    "answer": "B) 5th June",
+    "explanation": "It is the United Nations' principal vehicle for encouraging awareness and action for the protection of the environment.",
+    "question_code": "EXAM-1248"
+  },
+  {
+    "id": 250,
+    "subject": "Polity",
+    "topic": "Constitutional Framework",
+    "difficulty": "Easy",
+    "question": "What is the minimum age to become the 'President of India'?",
+    "options": [
+      "A) 25 years",
+      "B) 30 years",
+      "C) 35 years",
+      "D) 40 years"
+    ],
+    "answer": "C) 35 years",
+    "explanation": "According to Article 58, a person must have completed the age of 35 years to be eligible for election as President.",
+    "question_code": "EXAM-1249"
+  },
+  {
+    "id": 251,
+    "subject": "History",
+    "topic": "Maharashtra History",
+    "difficulty": "Medium",
+    "question": "Who founded the 'Satyashodhak Samaj'?",
+    "options": [
+      "A) Jyotirao Phule",
+      "B) B.R. Ambedkar",
+      "C) Shahu Maharaj",
+      "D) Savitribai Phule"
+    ],
+    "answer": "A) Jyotirao Phule",
+    "explanation": "Founded in 1873, it aimed to liberate the oppressed sections of society through education and social rights.",
+    "question_code": "EXAM-1250"
+  }
+]
