@@ -39,6 +39,16 @@ app.use(async (req, res, next) => {
   next();
 });
 
+app.get("/api/health", (req, res) => {
+  res.json({
+    status: "ok",
+    dbConnected: isConnected,
+    hasNewsKey: !!process.env.NEWS_API_KEY,
+    hasMongoUri: !!process.env.MONGO_URI,
+    env: process.env.NODE_ENV
+  });
+});
+
 app.use("/api/auth", authRoutes);
 app.use("/api/news", newsRoutes);
 app.use("/api/saved", savedRoutes);
