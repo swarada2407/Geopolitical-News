@@ -5,14 +5,15 @@ const JWT_SECRET = process.env.JWT_SECRET || "geointelx_default_secret_key_chang
 
 export async function protect(req, res, next) {
   try {
-    const authHeader = req.headers.authorization;
+    const authHeader = req.headers.authorization || req.headers.Authorization;
 
     if (!authHeader || !authHeader.startsWith("Bearer ")) {
       return res.status(401).json({ message: "No token, access denied" });
     }
 
     const token = authHeader.split(" ")[1];
-    const decoded = jwt.verify(token, JWT_SECRET);
+    const secret = process.env.JWT_SECRET || "geointelx_default_secret_key_change_in_production";
+    const decoded = jwt.verify(token, secret);
 
     const user = await User.findById(decoded.id).select("-password");
 
