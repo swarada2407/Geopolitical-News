@@ -15,7 +15,10 @@ import chatRoutes from "../server/routes/chatRoutes.js";
 import quizRoutes from "../server/routes/quizRoutes.js";
 import { notFound, errorHandler } from "../server/middleware/errorMiddleware.js";
 
-dotenv.config();
+// Load environment variables based on environment
+if (process.env.NODE_ENV !== "production") {
+  dotenv.config({ path: path.resolve(dirname(fileURLToPath(import.meta.url)), "../server/.env") });
+}
 
 const app = express();
 app.use(cors({
@@ -27,41 +30,58 @@ app.use(express.json());
 
 // Database connection state
 let isConnected = false;
-let dbError = null;
 
 const connectOnce = async () => {
   if (isConnected) return;
   try {
+    console.log("Connecting to database in Serverless function...");
     await connectDB();
     isConnected = true;
-    dbError = null;
+    console.log("Database connected successfully in Serverless function.");
   } catch (err) {
-    dbError = err.message;
-    console.error("Database connection error:", err.message);
+    console.error("Database connection error in Serverless function:", err.message);
+    throw err;
   }
 };
 
 // Health check
 app.get("/api/health", async (req, res) => {
-  await connectOnce().catch(() => {});
-  res.json({
-    status: "ok",
-    dbConnected: isConnected,
-    dbError: dbError,
-    hasNewsKey: !!process.env.NEWS_API_KEY,
-    hasMongoUri: !!process.env.MONGO_URI,
-    env: process.env.NODE_ENV,
-    time: new Date().toISOString()
-  });
+  try {
+    await connectOnce();
+    res.json({
+      status: "ok",
+      dbConnected: isConnected,
+      hasNewsKey: !!process.env.NEWS_API_KEY,
+      hasMongoUri: !!process.env.MONGO_URI,
+      env: process.env.NODE_ENV,
+      time: new Date().toISOString()
+    });
+  } catch (err) {
+    res.status(500).json({
+      status: "error",
+      message: "Database connection failed",
+      error: err.message
+    });
+  }
 });
 
+// Generic middleware for DB connection
+const dbMiddleware = async (req, res, next) => {
+  try {
+    await connectOnce();
+    next();
+  } catch (error) {
+    next(error);
+  }
+};
+
 // Routes
-app.use("/api/auth", async (req, res, next) => { await connectOnce().catch(() => {}); next(); }, authRoutes);
-app.use("/api/news", newsRoutes);
-app.use("/api/saved", async (req, res, next) => { await connectOnce().catch(() => {}); next(); }, savedRoutes);
-app.use("/api/military", async (req, res, next) => { await connectOnce().catch(() => {}); next(); }, militaryRoutes);
+app.use("/api/auth", dbMiddleware, authRoutes);
+app.use("/api/news", newsRoutes); // News doesn't strictly need DB, but let's see
+app.use("/api/saved", dbMiddleware, savedRoutes);
+app.use("/api/military", dbMiddleware, militaryRoutes);
 app.use("/api/chat", chatRoutes);
-app.use("/api/quiz", async (req, res, next) => { await connectOnce().catch(() => {}); next(); }, quizRoutes);
+app.use("/api/quiz", dbMiddleware, quizRoutes);
 
 // Error Handling
 app.use(notFound);
