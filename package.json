@@ -5,7 +5,7 @@
     "client-install": "npm install --prefix client",
     "server-install": "npm install --prefix server",
     "install-all": "npm run client-install && npm run server-install",
-    "build": "npm install --prefix client && npm run build --prefix client"
+    "build": "npm install --prefix client --legacy-peer-deps && npm run build --prefix client"
   },
   "dependencies": {
     "axios": "^1.15.2",
