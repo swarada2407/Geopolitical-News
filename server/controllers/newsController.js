@@ -25,7 +25,8 @@ export async function getTopNews(req, res) {
   try {
     const { category = "general", type = "standard" } = req.query;
 
-    if (!process.env.NEWS_API_KEY || process.env.NEWS_API_KEY.includes('your_api_key')) {
+    const apiKey = process.env.NEWS_API_KEY;
+    if (!apiKey || apiKey === "" || apiKey.includes('your_api_key')) {
       console.error("NEWS_API_KEY is missing or using default placeholder");
       return res.json(getMockArticles());
     }

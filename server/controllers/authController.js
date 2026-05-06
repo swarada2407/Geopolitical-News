@@ -7,7 +7,14 @@ import { OAuth2Client } from "google-auth-library";
 import nodemailer from "nodemailer";
 import crypto from "crypto";
 
-const client = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
+const getGoogleClient = () => {
+  const clientId = process.env.GOOGLE_CLIENT_ID;
+  if (!clientId) {
+    console.error("GOOGLE_CLIENT_ID is missing in environment variables");
+    return null;
+  }
+  return new OAuth2Client(clientId);
+};
 
 function generateToken(id) {
   const secret = process.env.JWT_SECRET || "geointelx_default_secret_key_change_in_production";
@@ -46,6 +53,11 @@ export async function googleAuth(req, res) {
 
     if (!tokenId) {
       return res.status(400).json({ message: "Token ID is required" });
+    }
+
+    const client = getGoogleClient();
+    if (!client) {
+      return res.status(500).json({ message: "Google Auth is not configured on the server." });
     }
 
     const ticket = await client.verifyIdToken({
