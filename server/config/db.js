@@ -8,6 +8,11 @@ async function connectDB() {
     // Handle cases where password might contain special characters like '@'
     let maskedConn = connString;
     try {
+      // Check for common connection string issues
+      if (connString.includes('@') && connString.split('@').length > 2) {
+        console.warn("ADVICE: Your MONGO_URI contains multiple '@' symbols. If connection fails, try replacing '@' in your password with '%40'.");
+      }
+
       const url = new URL(connString);
       if (url.password) {
         url.password = "****";
