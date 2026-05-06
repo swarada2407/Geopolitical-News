@@ -5,6 +5,8 @@ import path from "path";
 import { fileURLToPath } from "url";
 import { dirname } from "path";
 
+import mongoose from "mongoose";
+
 // Routes and DB
 import connectDB from "../server/config/db.js";
 import authRoutes from "../server/routes/authRoutes.js";
@@ -29,14 +31,15 @@ app.use(cors({
 app.use(express.json());
 
 // Database connection state
-let isConnected = false;
-
 const connectOnce = async () => {
-  if (isConnected) return;
+  // Check if we have an existing connection
+  if (mongoose.connection && mongoose.connection.readyState >= 1) {
+    return;
+  }
+  
   try {
     console.log("Connecting to database in Serverless function...");
     await connectDB();
-    isConnected = true;
     console.log("Database connected successfully in Serverless function.");
   } catch (err) {
     console.error("Database connection error in Serverless function:", err.message);
@@ -50,7 +53,7 @@ app.get("/api/health", async (req, res) => {
     await connectOnce();
     res.json({
       status: "ok",
-      dbConnected: isConnected,
+      dbConnected: mongoose.connection.readyState >= 1,
       hasNewsKey: !!process.env.NEWS_API_KEY,
       hasMongoUri: !!process.env.MONGO_URI,
       env: process.env.NODE_ENV,
@@ -77,7 +80,7 @@ const dbMiddleware = async (req, res, next) => {
 
 // Routes
 app.use("/api/auth", dbMiddleware, authRoutes);
-app.use("/api/news", dbMiddleware, newsRoutes); // Added DB Middleware to catch/log potential errors
+app.use("/api/news", newsRoutes); // News doesn't strictly need DB - removing middleware to ensure it works even if DB fails
 app.use("/api/saved", dbMiddleware, savedRoutes);
 app.use("/api/military", dbMiddleware, militaryRoutes);
 app.use("/api/chat", chatRoutes);

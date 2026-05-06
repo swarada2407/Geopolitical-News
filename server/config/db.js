@@ -25,7 +25,7 @@ async function connectDB() {
     console.log(`Attempting to connect to MongoDB: ${maskedConn}`);
 
     await mongoose.connect(connString, {
-      serverSelectionTimeoutMS: 5000,
+      serverSelectionTimeoutMS: 15000, // Increased to 15 seconds for serverless cold starts
     });
     console.log("MongoDB connected successfully");
   } catch (error) {
