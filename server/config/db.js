@@ -5,7 +5,18 @@ async function connectDB() {
     const connString = process.env.MONGO_URI || "mongodb://127.0.0.1:27017/geointelx";
     
     // Log the connection attempt (masking password)
-    const maskedConn = connString.replace(/\/\/.*:.*@/, "//***:***@");
+    // Handle cases where password might contain special characters like '@'
+    let maskedConn = connString;
+    try {
+      const url = new URL(connString);
+      if (url.password) {
+        url.password = "****";
+      }
+      maskedConn = url.toString();
+    } catch (e) {
+      // Fallback to regex if URL parsing fails
+      maskedConn = connString.replace(/\/\/.*:.*@/, "//***:***@");
+    }
     console.log(`Attempting to connect to MongoDB: ${maskedConn}`);
 
     await mongoose.connect(connString, {
