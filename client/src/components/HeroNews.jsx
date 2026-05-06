@@ -117,7 +117,8 @@ function HeroNews({ searchTerm }) {
       } catch (err) {
         console.error("Hero News fetch error:", err);
         setArticles([]);
-        setError("Unable to load featured stories right now.");
+        const message = err.response?.data?.message || err.message || "Unable to load featured stories right now.";
+        setError(message);
       } finally {
         setLoading(false);
       }

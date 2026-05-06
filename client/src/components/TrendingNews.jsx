@@ -104,8 +104,10 @@ function TrendingNews({ searchTerm }) {
       try {
         const { data } = await getTopNews({ country: 'us', type: 'trending' });
         setArticles(data || []);
-      } catch (error) {
-        console.error("Failed to fetch trending news:", error);
+      } catch (err) {
+        console.error("Trending News fetch error:", err);
+        const message = err.response?.data?.message || err.message || "Unable to load trending news.";
+        showToast(message, "error");
       } finally {
         setLoading(false);
       }

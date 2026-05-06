@@ -24,8 +24,14 @@ dotenv.config();
 let isConnected = false;
 const connectOnce = async () => {
   if (isConnected) return;
-  await connectDB();
-  isConnected = true;
+  try {
+    await connectDB();
+    isConnected = true;
+  } catch (err) {
+    console.error("Database connection error in middleware:", err.message);
+    // Don't throw here, let the route handler decide what to do
+    // or let it fail with a better error message later
+  }
 };
 
 const app = express();
@@ -45,7 +51,9 @@ app.get("/api/health", (req, res) => {
     dbConnected: isConnected,
     hasNewsKey: !!process.env.NEWS_API_KEY,
     hasMongoUri: !!process.env.MONGO_URI,
-    env: process.env.NODE_ENV
+    hasGoogleId: !!process.env.GOOGLE_CLIENT_ID,
+    env: process.env.NODE_ENV,
+    time: new Date().toISOString()
   });
 });
 
