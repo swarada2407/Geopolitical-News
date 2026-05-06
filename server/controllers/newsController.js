@@ -100,48 +100,52 @@ export async function getTopNews(req, res) {
     const seenTitles = []; // Array of normalized titles for fuzzy matching
     
     const uniqueArticles = articles.filter((article) => {
-      if (!article.title || article.title === "[Removed]" || !article.urlToImage || !article.description) {
+      // Basic sanity check for required fields
+      if (!article || !article.title || article.title === "[Removed]" || !article.url || !article.urlToImage || !article.description) {
         return false;
       }
 
-      // Filter out duplicate images to ensure visual variety
-      const imageUrl = article.urlToImage.split('?')[0]; // Ignore query params on images
-      if (seenImages.has(imageUrl)) return false;
+      try {
+        // Filter out duplicate images to ensure visual variety
+        const imageUrl = article.urlToImage.split('?')[0]; // Ignore query params on images
+        if (seenImages.has(imageUrl)) return false;
 
-      // Normalize URL (remove query parameters)
-      const normalizedUrl = article.url.split('?')[0].split('#')[0].toLowerCase();
-      if (seenUrls.has(normalizedUrl)) return false;
-      
-      // Normalize Title for fuzzy matching
-      // Remove filler words from start and special characters
-      const normalizedTitle = article.title
-        .toLowerCase()
-        .replace(/^(how|the|a|an|breaking|just in|exclusive|update):?\s+/i, "")
-        .replace(/[^a-z0-9\s]/g, "")
-        .trim();
-
-      // Check if this title is too similar to any we've already seen
-      // We check if one is a substring of the other or if they share a large common prefix
-      const isDuplicateTitle = seenTitles.some(seen => {
-        if (normalizedTitle.includes(seen) || seen.includes(normalizedTitle)) return true;
+        // Normalize URL (remove query parameters)
+        const normalizedUrl = article.url.split('?')[0].split('#')[0].toLowerCase();
+        if (seenUrls.has(normalizedUrl)) return false;
         
-        // Check for 80% word overlap
-        const words1 = new Set(normalizedTitle.split(/\s+/));
-        const words2 = new Set(seen.split(/\s+/));
-        const commonWords = [...words1].filter(w => words2.has(w));
-        const overlap = commonWords.length / Math.max(words1.size, words2.size);
-        return overlap > 0.8;
-      });
+        // Normalize Title for fuzzy matching
+        const normalizedTitle = article.title
+          .toLowerCase()
+          .replace(/^(how|the|a|an|breaking|just in|exclusive|update):?\s+/i, "")
+          .replace(/[^a-z0-9\s]/g, "")
+          .trim();
 
-      if (isDuplicateTitle) return false;
+        // Check if this title is too similar to any we've already seen
+        const isDuplicateTitle = seenTitles.some(seen => {
+          if (normalizedTitle.includes(seen) || seen.includes(normalizedTitle)) return true;
+          
+          const words1 = normalizedTitle.split(/\s+/);
+          const words2 = seen.split(/\s+/);
+          const wordsSet2 = new Set(words2);
+          const commonWords = words1.filter(w => wordsSet2.has(w));
+          const overlap = commonWords.length / Math.max(words1.length, words2.length);
+          return overlap > 0.8;
+        });
 
-      // Filter out low quality descriptions
-      if (article.description.trim().length < 30) return false;
+        if (isDuplicateTitle) return false;
 
-      seenUrls.add(normalizedUrl);
-      seenImages.add(imageUrl);
-      seenTitles.push(normalizedTitle);
-      return true;
+        // Filter out low quality descriptions
+        if (article.description.trim().length < 30) return false;
+
+        seenUrls.add(normalizedUrl);
+        seenImages.add(imageUrl);
+        seenTitles.push(normalizedTitle);
+        return true;
+      } catch (err) {
+        console.error("Error filtering article:", err.message);
+        return false;
+      }
     });
 
     // Return a different slice based on type to ensure Hero/Trending/General sections don't overlap
