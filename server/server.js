@@ -17,16 +17,27 @@ import { dirname, join } from 'path';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-// Load environment variables from the same directory as server.js
-dotenv.config({ path: join(__dirname, '.env') });
-console.log("Environment variables loaded.");
+// Load environment variables
+dotenv.config();
 
-connectDB();
+// Connect to Database
+let isConnected = false;
+const connectOnce = async () => {
+  if (isConnected) return;
+  await connectDB();
+  isConnected = true;
+};
 
 const app = express();
 
 app.use(cors());
 app.use(express.json());
+
+// Middleware to ensure DB connection
+app.use(async (req, res, next) => {
+  await connectOnce();
+  next();
+});
 
 app.use("/api/auth", authRoutes);
 app.use("/api/news", newsRoutes);
