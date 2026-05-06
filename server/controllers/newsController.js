@@ -6,7 +6,17 @@ export async function getTopNews(req, res) {
 
     if (!process.env.NEWS_API_KEY) {
       console.error("NEWS_API_KEY is missing in .env");
-      return res.status(500).json({ message: "News API configuration error." });
+      // Don't fail the whole request, return mock data
+      return res.json([
+        {
+          title: "GeoIntelX News Service",
+          description: "Our news service is currently in maintenance. We're working hard to bring you the latest geopolitical intelligence. Please check back shortly.",
+          url: "#",
+          urlToImage: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+          source: { name: "System" },
+          publishedAt: new Date().toISOString()
+        }
+      ]);
     }
 
     let articles = [];
