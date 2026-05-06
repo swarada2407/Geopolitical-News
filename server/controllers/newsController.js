@@ -1,22 +1,33 @@
 import axios from "axios";
 
+function getMockArticles() {
+  return [
+    {
+      title: "Global Intelligence Update: Monitoring International Events",
+      description: "Our systems are currently monitoring global geopolitical developments. Stay tuned for real-time updates on international security and diplomacy.",
+      url: "#",
+      urlToImage: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      source: { name: "GeoIntelX Monitor" },
+      publishedAt: new Date().toISOString()
+    },
+    {
+      title: "Economic Trends: Analysis of Global Market Stability",
+      description: "Recent shifts in international trade patterns suggest a period of economic adjustment. Experts analyze the impact on global markets.",
+      url: "#",
+      urlToImage: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+      source: { name: "GeoIntelX Finance" },
+      publishedAt: new Date().toISOString()
+    }
+  ];
+}
+
 export async function getTopNews(req, res) {
   try {
     const { category = "general", type = "standard" } = req.query;
 
-    if (!process.env.NEWS_API_KEY) {
-      console.error("NEWS_API_KEY is missing in .env");
-      // Don't fail the whole request, return mock data
-      return res.json([
-        {
-          title: "GeoIntelX News Service",
-          description: "Our news service is currently in maintenance. We're working hard to bring you the latest geopolitical intelligence. Please check back shortly.",
-          url: "#",
-          urlToImage: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-          source: { name: "System" },
-          publishedAt: new Date().toISOString()
-        }
-      ]);
+    if (!process.env.NEWS_API_KEY || process.env.NEWS_API_KEY.includes('your_api_key')) {
+      console.error("NEWS_API_KEY is missing or using default placeholder");
+      return res.json(getMockArticles());
     }
 
     let articles = [];
@@ -79,24 +90,7 @@ export async function getTopNews(req, res) {
 
     if (articles.length === 0) {
       // Fallback to mock data if API fails to return anything
-      articles = [
-        {
-          title: "Global Intelligence Update: Monitoring International Events",
-          description: "Our systems are currently monitoring global geopolitical developments. Stay tuned for real-time updates on international security and diplomacy.",
-          url: "https://geointelx.com/news/1",
-          urlToImage: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-          source: { name: "GeoIntelX Monitor" },
-          publishedAt: new Date().toISOString()
-        },
-        {
-          title: "Economic Trends: Analysis of Global Market Stability",
-          description: "Recent shifts in international trade patterns suggest a period of economic adjustment. Experts analyze the impact on global markets.",
-          url: "https://geointelx.com/news/2",
-          urlToImage: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
-          source: { name: "GeoIntelX Finance" },
-          publishedAt: new Date().toISOString()
-        }
-      ];
+      articles = getMockArticles();
     }
 
     // Strict Filtering & Deduplication
