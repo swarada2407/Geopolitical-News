@@ -22,15 +22,17 @@ dotenv.config();
 
 // Connect to Database
 let isConnected = false;
+let dbError = null;
+
 const connectOnce = async () => {
   if (isConnected) return;
   try {
     await connectDB();
     isConnected = true;
+    dbError = null;
   } catch (err) {
-    console.error("Database connection error in middleware:", err.message);
-    // Don't throw here, let the route handler decide what to do
-    // or let it fail with a better error message later
+    dbError = err.message;
+    console.error("Database connection error:", err.message);
   }
 };
 
@@ -39,9 +41,11 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Middleware to ensure DB connection
-app.use(async (req, res, next) => {
-  await connectOnce();
+// Non-blocking DB connection middleware
+app.use((req, res, next) => {
+  connectOnce().catch(err => {
+    dbError = err.message;
+  });
   next();
 });
 
@@ -49,6 +53,7 @@ app.get("/api/health", (req, res) => {
   res.json({
     status: "ok",
     dbConnected: isConnected,
+    dbError: dbError,
     hasNewsKey: !!process.env.NEWS_API_KEY,
     hasMongoUri: !!process.env.MONGO_URI,
     hasGoogleId: !!process.env.GOOGLE_CLIENT_ID,
