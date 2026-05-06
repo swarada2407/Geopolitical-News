@@ -49,6 +49,7 @@ app.use((req, res, next) => {
   next();
 });
 
+// Health check and root routes
 app.get("/api/health", (req, res) => {
   res.json({
     status: "ok",
@@ -62,6 +63,11 @@ app.get("/api/health", (req, res) => {
   });
 });
 
+app.get("/", (req, res) => {
+  res.send("GeoIntelX backend is running");
+});
+
+// API Routes
 app.use("/api/auth", authRoutes);
 app.use("/api/news", newsRoutes);
 app.use("/api/saved", savedRoutes);
@@ -69,12 +75,9 @@ app.use("/api/military", militaryRoutes);
 app.use("/api/chat", chatRoutes);
 app.use("/api/quiz", quizRoutes);
 
+// Error Handling (Must be after routes)
 app.use(notFound);
 app.use(errorHandler);
-
-app.get("/", (req, res) => {
-  res.send("GeoIntelX backend is running");
-});
 
 // Export the app for Vercel
 export { app };
