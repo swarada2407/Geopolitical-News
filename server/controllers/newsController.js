@@ -26,7 +26,7 @@ export async function getTopNews(req, res) {
     const { category = "general", type = "standard" } = req.query;
 
     const apiKey = process.env.NEWS_API_KEY;
-    if (!apiKey || apiKey === "" || apiKey.includes('your_api_key')) {
+    if (!apiKey || apiKey === "" || (typeof apiKey === 'string' && apiKey.includes('your_api_key'))) {
       console.error("NEWS_API_KEY is missing or using default placeholder");
       return res.json(getMockArticles());
     }
@@ -40,18 +40,21 @@ export async function getTopNews(req, res) {
           params: {
             category,
             language: "en",
-            pageSize: 50, // Reduced from 100 to speed up
-            apiKey: process.env.NEWS_API_KEY,
+            pageSize: 50,
+            apiKey: apiKey,
           },
-          timeout: 10000, // Increased to 10 seconds
+          timeout: 8000, // Reduced slightly to stay within Vercel limits
         });
-        articles = response.data.articles || [];
+        articles = response.data?.articles || [];
       } catch (err) {
         console.error(`Top-headlines fetch error for ${category}:`, err.message);
       }
     }
 
-    const articlesWithImages = articles.filter(a => a.urlToImage && a.description && a.description.length > 20);
+    // Safety check for articles array
+    if (!Array.isArray(articles)) articles = [];
+
+    const articlesWithImages = articles.filter(a => a && a.urlToImage && a.description && a.description.length > 20);
     
     if (category === "general" || articlesWithImages.length < 5) {
       const queryMap = {
@@ -74,30 +77,31 @@ export async function getTopNews(req, res) {
           params: {
             q,
             language: "en",
-            pageSize: 50, // Reduced from 100
+            pageSize: 50,
             from: fromDate,
             sortBy: "publishedAt",
-            apiKey: process.env.NEWS_API_KEY,
+            apiKey: apiKey,
           },
-          timeout: 10000, // Increased to 10 seconds
+          timeout: 8000,
         });
         
-        const everythingArticles = response.data.articles || [];
-        articles = [...articles, ...everythingArticles];
+        const everythingArticles = response.data?.articles || [];
+        if (Array.isArray(everythingArticles)) {
+          articles = [...articles, ...everythingArticles];
+        }
       } catch (err) {
         console.error(`Everything fetch error for ${category}:`, err.message);
       }
     }
 
-    if (articles.length === 0) {
-      // Fallback to mock data if API fails to return anything
-      articles = getMockArticles();
+    if (!Array.isArray(articles) || articles.length === 0) {
+      return res.json(getMockArticles());
     }
 
     // Strict Filtering & Deduplication
     const seenUrls = new Set();
     const seenImages = new Set();
-    const seenTitles = []; // Array of normalized titles for fuzzy matching
+    const seenTitles = []; 
     
     const uniqueArticles = articles.filter((article) => {
       // Basic sanity check for required fields
@@ -106,22 +110,24 @@ export async function getTopNews(req, res) {
       }
 
       try {
-        // Filter out duplicate images to ensure visual variety
-        const imageUrl = article.urlToImage.split('?')[0]; // Ignore query params on images
-        if (seenImages.has(imageUrl)) return false;
+        // Filter out duplicate images
+        const imageUrl = typeof article.urlToImage === 'string' ? article.urlToImage.split('?')[0] : '';
+        if (!imageUrl || seenImages.has(imageUrl)) return false;
 
-        // Normalize URL (remove query parameters)
-        const normalizedUrl = article.url.split('?')[0].split('#')[0].toLowerCase();
-        if (seenUrls.has(normalizedUrl)) return false;
+        // Normalize URL
+        const normalizedUrl = typeof article.url === 'string' ? article.url.split('?')[0].split('#')[0].toLowerCase() : '';
+        if (!normalizedUrl || seenUrls.has(normalizedUrl)) return false;
         
-        // Normalize Title for fuzzy matching
-        const normalizedTitle = article.title
-          .toLowerCase()
-          .replace(/^(how|the|a|an|breaking|just in|exclusive|update):?\s+/i, "")
-          .replace(/[^a-z0-9\s]/g, "")
-          .trim();
+        // Normalize Title
+        const normalizedTitle = typeof article.title === 'string' 
+          ? article.title.toLowerCase()
+              .replace(/^(how|the|a|an|breaking|just in|exclusive|update):?\s+/i, "")
+              .replace(/[^a-z0-9\s]/g, "")
+              .trim()
+          : '';
 
-        // Check if this title is too similar to any we've already seen
+        if (!normalizedTitle) return false;
+
         const isDuplicateTitle = seenTitles.some(seen => {
           if (normalizedTitle.includes(seen) || seen.includes(normalizedTitle)) return true;
           
@@ -134,21 +140,17 @@ export async function getTopNews(req, res) {
         });
 
         if (isDuplicateTitle) return false;
-
-        // Filter out low quality descriptions
-        if (article.description.trim().length < 30) return false;
+        if (typeof article.description === 'string' && article.description.trim().length < 30) return false;
 
         seenUrls.add(normalizedUrl);
         seenImages.add(imageUrl);
         seenTitles.push(normalizedTitle);
         return true;
       } catch (err) {
-        console.error("Error filtering article:", err.message);
         return false;
       }
     });
 
-    // Return a different slice based on type to ensure Hero/Trending/General sections don't overlap
     let result = [];
     if (type === "hero") {
       result = uniqueArticles.slice(0, 5);
@@ -158,20 +160,11 @@ export async function getTopNews(req, res) {
       result = uniqueArticles.slice(0, 20);
     }
 
-    res.json(result);
+    if (result.length === 0) return res.json(getMockArticles());
+    return res.json(result);
   } catch (error) {
     console.error("News fetch error:", error);
-    // Even in catch block, try to return mock data so frontend doesn't crash
-    res.json([
-      {
-        title: "Service Temporarily Unavailable",
-        description: "We are having trouble connecting to the News API. Please check your internet connection and try again.",
-        url: "#",
-        urlToImage: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-        source: { name: "System" },
-        publishedAt: new Date().toISOString()
-      }
-    ]);
+    return res.json(getMockArticles());
   }
 }
 
