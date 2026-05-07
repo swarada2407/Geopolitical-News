@@ -27,128 +27,66 @@ export async function getTopNews(req, res) {
 
     const apiKey = process.env.NEWS_API_KEY;
     if (!apiKey || apiKey === "" || (typeof apiKey === 'string' && apiKey.includes('your_api_key'))) {
-      console.error("NEWS_API_KEY is missing or using default placeholder");
       return res.json(getMockArticles());
     }
 
     let articles = [];
     
-    // For specific categories (except general), /top-headlines usually works better
-    if (category !== "general") {
-      try {
-        const response = await axios.get("https://newsapi.org/v2/top-headlines", {
-          params: {
-            category,
-            language: "en",
-            pageSize: 50,
-            apiKey: apiKey,
-          },
-          timeout: 8000, // Reduced slightly to stay within Vercel limits
-        });
-        articles = response.data?.articles || [];
-      } catch (err) {
-        console.error(`Top-headlines fetch error for ${category}:`, err.message);
-      }
-    }
+    // Determine which endpoint to use
+    // Using a shorter timeout to stay within Vercel's 10s limit
+    const fetchTimeout = 5000; 
 
-    // Safety check for articles array
-    if (!Array.isArray(articles)) articles = [];
+    try {
+      if (category === "general") {
+        // For general news, 'everything' often gives better results than 'top-headlines'
+        const threeDaysAgo = new Date();
+        threeDaysAgo.setDate(threeDaysAgo.getDate() - 3);
+        const fromDate = threeDaysAgo.toISOString().split('T')[0];
 
-    const articlesWithImages = articles.filter(a => a && a.urlToImage && a.description && a.description.length > 20);
-    
-    if (category === "general" || articlesWithImages.length < 5) {
-      const queryMap = {
-        general: "world news OR global events OR international news",
-        business: "business news OR economy OR finance",
-        technology: "technology OR tech news",
-        science: "science news OR discovery",
-        health: "health news OR medical",
-        sports: "sports news",
-      };
-
-      let q = queryMap[category] || category;
-
-      const threeDaysAgo = new Date();
-      threeDaysAgo.setDate(threeDaysAgo.getDate() - 3);
-      const fromDate = threeDaysAgo.toISOString().split('T')[0];
-
-      try {
         const response = await axios.get("https://newsapi.org/v2/everything", {
           params: {
-            q,
+            q: "world news OR global events OR international news",
             language: "en",
-            pageSize: 50,
+            pageSize: 40,
             from: fromDate,
             sortBy: "publishedAt",
             apiKey: apiKey,
           },
-          timeout: 8000,
+          timeout: fetchTimeout,
         });
-        
-        const everythingArticles = response.data?.articles || [];
-        if (Array.isArray(everythingArticles)) {
-          articles = [...articles, ...everythingArticles];
-        }
-      } catch (err) {
-        console.error(`Everything fetch error for ${category}:`, err.message);
+        articles = response.data?.articles || [];
+      } else {
+        // For specific categories, use top-headlines
+        const response = await axios.get("https://newsapi.org/v2/top-headlines", {
+          params: {
+            category,
+            language: "en",
+            pageSize: 40,
+            apiKey: apiKey,
+          },
+          timeout: fetchTimeout,
+        });
+        articles = response.data?.articles || [];
       }
+    } catch (err) {
+      console.error(`News API fetch error:`, err.message);
+      // If the first attempt fails, we'll fall back to mock data later
     }
 
     if (!Array.isArray(articles) || articles.length === 0) {
       return res.json(getMockArticles());
     }
 
-    // Strict Filtering & Deduplication
+    // Deduplication and Filtering
     const seenUrls = new Set();
-    const seenImages = new Set();
-    const seenTitles = []; 
-    
     const uniqueArticles = articles.filter((article) => {
-      // Basic sanity check for required fields
       if (!article || !article.title || article.title === "[Removed]" || !article.url || !article.urlToImage || !article.description) {
         return false;
       }
-
-      try {
-        // Filter out duplicate images
-        const imageUrl = typeof article.urlToImage === 'string' ? article.urlToImage.split('?')[0] : '';
-        if (!imageUrl || seenImages.has(imageUrl)) return false;
-
-        // Normalize URL
-        const normalizedUrl = typeof article.url === 'string' ? article.url.split('?')[0].split('#')[0].toLowerCase() : '';
-        if (!normalizedUrl || seenUrls.has(normalizedUrl)) return false;
-        
-        // Normalize Title
-        const normalizedTitle = typeof article.title === 'string' 
-          ? article.title.toLowerCase()
-              .replace(/^(how|the|a|an|breaking|just in|exclusive|update):?\s+/i, "")
-              .replace(/[^a-z0-9\s]/g, "")
-              .trim()
-          : '';
-
-        if (!normalizedTitle) return false;
-
-        const isDuplicateTitle = seenTitles.some(seen => {
-          if (normalizedTitle.includes(seen) || seen.includes(normalizedTitle)) return true;
-          
-          const words1 = normalizedTitle.split(/\s+/);
-          const words2 = seen.split(/\s+/);
-          const wordsSet2 = new Set(words2);
-          const commonWords = words1.filter(w => wordsSet2.has(w));
-          const overlap = commonWords.length / Math.max(words1.length, words2.length);
-          return overlap > 0.8;
-        });
-
-        if (isDuplicateTitle) return false;
-        if (typeof article.description === 'string' && article.description.trim().length < 30) return false;
-
-        seenUrls.add(normalizedUrl);
-        seenImages.add(imageUrl);
-        seenTitles.push(normalizedTitle);
-        return true;
-      } catch (err) {
-        return false;
-      }
+      const normalizedUrl = article.url.split('?')[0].toLowerCase();
+      if (seenUrls.has(normalizedUrl)) return false;
+      seenUrls.add(normalizedUrl);
+      return true;
     });
 
     let result = [];
@@ -163,7 +101,7 @@ export async function getTopNews(req, res) {
     if (result.length === 0) return res.json(getMockArticles());
     return res.json(result);
   } catch (error) {
-    console.error("News fetch error:", error);
+    console.error("Top news controller error:", error);
     return res.json(getMockArticles());
   }
 }

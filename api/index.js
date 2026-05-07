@@ -80,10 +80,10 @@ const dbMiddleware = async (req, res, next) => {
 
 // Routes
 app.use("/api/auth", dbMiddleware, authRoutes);
-app.use("/api/news", newsRoutes); // News doesn't strictly need DB - removing middleware to ensure it works even if DB fails
+app.use("/api/news", newsRoutes); 
 app.use("/api/saved", dbMiddleware, savedRoutes);
 app.use("/api/military", dbMiddleware, militaryRoutes);
-app.use("/api/chat", chatRoutes);
+app.use("/api/chat", dbMiddleware, chatRoutes); // Added dbMiddleware because chat uses protect
 app.use("/api/quiz", dbMiddleware, quizRoutes);
 
 // Error Handling
