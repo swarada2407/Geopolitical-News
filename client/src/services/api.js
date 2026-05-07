@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "https://geopolitical-news.onrender.com/api/",
+  baseURL: import.meta.env.VITE_API_URL || "https://geopolitical-news.onrender.com",
 });
 
 // Add a request interceptor to include the auth token
@@ -20,28 +20,28 @@ API.interceptors.request.use((req) => {
 });
 
 // Auth API
-export const login = (credentials) => API.post("auth/login", credentials);
-export const register = (userData) => API.post("auth/register", userData);
-export const googleAuth = (tokenId) => API.post("auth/google", { tokenId });
-export const getAllUsers = () => API.get("auth/users");
-export const forgotPassword = (email) => API.post("auth/forgot-password", { email });
-export const resetPassword = (token, password) => API.post(`auth/reset-password/${token}`, { password });
+export const login = (credentials) => API.post("/api/auth/login", credentials);
+export const register = (userData) => API.post("/api/auth/register", userData);
+export const googleAuth = (tokenId) => API.post("/api/auth/google", { tokenId });
+export const getAllUsers = () => API.get("/api/auth/users");
+export const forgotPassword = (email) => API.post("/api/auth/forgot-password", { email });
+export const resetPassword = (token, password) => API.post(`/api/auth/reset-password/${token}`, { password });
 
 // Saved News API
-export const saveNews = (article) => API.post("saved", article);
-export const getSavedNews = () => API.get("saved");
-export const removeSavedNews = (id) => API.delete(`saved/${id}`);
+export const saveNews = (article) => API.post("/api/saved", article);
+export const getSavedNews = () => API.get("/api/saved");
+export const removeSavedNews = (id) => API.delete(`/api/saved/${id}`);
 
 // Quiz API
-export const getQuiz = (params) => API.post("quiz/generate", params);
-export const saveQuizResult = (resultData) => API.post("quiz/save", resultData);
-export const getQuizStats = () => API.get("quiz/stats");
+export const getQuiz = (params) => API.post("/api/quiz/generate", params);
+export const saveQuizResult = (resultData) => API.post("/api/quiz/save", resultData);
+export const getQuizStats = () => API.get("/api/quiz/stats");
 
 // Summary API
-export const summarizeNews = (articleData) => API.post("news/summarize", articleData);
+export const summarizeNews = (articleData) => API.post("/api/news/summarize", articleData);
 
 // News API
-export const getTopNews = (params) => API.get("news/top", { params });
-export const searchNews = (q) => API.get("news/search", { params: { q } });
+export const getTopNews = (params) => API.get("/api/news/top", { params });
+export const searchNews = (q) => API.get("/api/news/search", { params: { q } });
 
 export default API;
