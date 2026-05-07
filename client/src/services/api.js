@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "https://geopolitical-news.onrender.com",
+  baseURL: import.meta.env.VITE_API_URL || (["localhost", "127.0.0.1", "0.0.0.0"].includes(window.location.hostname) ? "http://localhost:5000" : "https://geopolitical-news.onrender.com"),
 });
 
 // Add a request interceptor to include the auth token
@@ -47,5 +47,8 @@ export const searchNews = (q) => API.get("/api/news/search", { params: { q } });
 // Military API
 export const getMilitaryData = () => API.get("/api/military");
 export const getMilitaryCountry = (name) => API.get(`/api/military/${name}`);
+
+// Chat API
+export const askChatbot = (message) => API.post("/api/chat", { message });
 
 export default API;

@@ -4,7 +4,7 @@ import { FaShareAlt, FaMagic } from "react-icons/fa";
 import { highlightText, articleMatchesSearch } from "../utils/searchUtils";
 
 const CATEGORY_IMAGES = {
-  general: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+  general: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80",
   business: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
   technology: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
   science: "https://images.unsplash.com/photo-1507413245164-6160d8298b31?auto=format&fit=crop&w=1200&q=80",
@@ -109,11 +109,17 @@ function News() {
         description: article.description,
         content: article.content
       });
-      setSummaries(prev => ({ ...prev, [article.url]: data.summary }));
-      showToast("Summary generated!", "success");
+      
+      if (data && data.summary) {
+        setSummaries(prev => ({ ...prev, [article.url]: data.summary }));
+        showToast("Summary generated!", "success");
+      } else {
+        throw new Error("No summary returned from server");
+      }
     } catch (err) {
       console.error("Summarization failed:", err);
-      showToast("Failed to generate summary.", "error");
+      const errorMsg = err.response?.data?.message || err.message || "Failed to generate summary.";
+      showToast(errorMsg, "error");
     } finally {
       setSummarizing(prev => ({ ...prev, [article.url]: false }));
     }

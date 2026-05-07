@@ -20,6 +20,12 @@ const __dirname = dirname(__filename);
 // Load environment variables
 dotenv.config();
 
+console.log("Environment variables loaded:");
+console.log("- PORT:", process.env.PORT);
+console.log("- MONGO_URI:", process.env.MONGO_URI ? "Present" : "Missing");
+console.log("- GEMINI_API_KEY:", process.env.GEMINI_API_KEY ? "Present" : "Missing");
+console.log("- NEWS_API_KEY:", process.env.NEWS_API_KEY ? "Present" : "Missing");
+
 // Connect to Database
 let isConnected = false;
 let dbError = null;

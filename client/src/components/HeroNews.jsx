@@ -5,7 +5,7 @@ import { highlightText, articleMatchesSearch } from "../utils/searchUtils";
 import { showToast } from "./Toast";
 
 const FALLBACK_IMAGE =
-  "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80";
+  "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80";
 
 function HeroNews({ searchTerm }) {
   const [articles, setArticles] = useState([]);

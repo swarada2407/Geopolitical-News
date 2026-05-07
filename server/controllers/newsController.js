@@ -189,6 +189,11 @@ export async function summarizeNews(req, res) {
       return res.status(400).json({ message: "Insufficient news data to summarize." });
     }
 
+    if (!process.env.GEMINI_API_KEY) {
+      console.error("GEMINI_API_KEY is missing in environment variables");
+      return res.status(500).json({ message: "Summarization configuration error: API Key missing." });
+    }
+
     const systemPrompt = `
       You are an expert news analyst. 
       Provide a concise summary of the following news article.
@@ -204,7 +209,7 @@ export async function summarizeNews(req, res) {
     const articleText = `Title: ${title}\nDescription: ${description}\nContent: ${content || ""}`;
 
     const response = await axios.post(
-      "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent",
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=${process.env.GEMINI_API_KEY}`,
       {
         contents: [
           {
@@ -220,7 +225,6 @@ export async function summarizeNews(req, res) {
       {
         headers: {
           "Content-Type": "application/json",
-          "x-goog-api-key": process.env.GEMINI_API_KEY,
         },
       }
     );
@@ -235,6 +239,12 @@ export async function summarizeNews(req, res) {
     
     const status = error.response?.status;
     const errorData = error.response?.data?.error;
+
+    if (status === 403 && errorData?.message?.includes("leaked")) {
+      return res.status(403).json({
+        message: "Summarization error: Your Gemini API Key has been disabled because it was reported as leaked. Please generate a new key at Google AI Studio and update your .env file.",
+      });
+    }
 
     if (status === 429) {
       return res.status(429).json({

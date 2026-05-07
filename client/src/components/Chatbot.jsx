@@ -1,12 +1,12 @@
 import { useState } from "react";
-import api from "../services/api";
+import { askChatbot } from "../services/api";
 
 function Chatbot() {
   const [open, setOpen] = useState(false);
   const [messages, setMessages] = useState([
     {
       sender: "bot",
-      text: "Hi! I am GeoIntelX AI. Ask me about news, geopolitics, military, or UPSC current affairs.",
+      text: "Hi! I am GeoIntelX AI (Updated). Ask me about news, geopolitics, military, or UPSC current affairs.",
     },
   ]);
   const [input, setInput] = useState("");
@@ -25,28 +25,33 @@ function Chatbot() {
     setLoading(true);
 
     try {
-      const res = await api.post("/chat", {
-        message: input,
-      });
+      const res = await askChatbot(input);
 
       console.log("Chatbot response:", res.data);
 
-      setMessages((prev) => [
-        ...prev,
-        {
-          sender: "bot",
-          text: res.data.reply,
-        },
-      ]);
+      if (res.data && res.data.reply) {
+        setMessages((prev) => [
+          ...prev,
+          {
+            sender: "bot",
+            text: res.data.reply,
+          },
+        ]);
+      } else {
+        throw new Error("Invalid response format from server");
+      }
     } catch (err) {
       console.error("Chatbot frontend error:", err);
       const errorMsg =
-        err.response?.data?.reply || "Sorry, chatbot is not available right now.";
+        err.response?.data?.reply || 
+        err.response?.data?.message ||
+        err.message ||
+        "Sorry, chatbot is not available right now.";
       setMessages((prev) => [
         ...prev,
         {
           sender: "bot",
-          text: errorMsg,
+          text: `Error: ${errorMsg}`,
         },
       ]);
     } finally {
