@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import axios from "axios";
 import { Bar } from "react-chartjs-2";
-import api, { searchNews } from "../services/api";
+import api, { searchNews, getMilitaryData } from "../services/api";
 import MilitaryMap from "../components/MilitaryMap";
 import { highlightText } from "../utils/searchUtils";
 import {
@@ -63,7 +63,7 @@ function MilitaryDashboard() {
   useEffect(() => {
     async function fetchMilitaryData() {
       try {
-        const res = await api.get("/military");
+        const res = await getMilitaryData();
         setMilitaryData(res.data);
         if (res.data.length > 0) {
           // Check if default countries exist in fetched data

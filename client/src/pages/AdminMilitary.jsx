@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import api from "../services/api";
+import api, { getMilitaryData } from "../services/api";
 
 function AdminMilitary() {
   const [countries, setCountries] = useState([]);
@@ -35,7 +35,7 @@ function AdminMilitary() {
 
   const fetchMilitaryData = async () => {
     try {
-      const res = await api.get("/military");
+      const res = await getMilitaryData();
       setCountries(res.data);
     } catch (err) {
       console.error("Failed to fetch military data:", err);
@@ -92,7 +92,7 @@ function AdminMilitary() {
   const handleDelete = async (id) => {
     if (!window.confirm("Are you sure you want to delete this country?")) return;
     try {
-      await api.delete(`/military/${id}`);
+      await api.delete(`/api/military/${id}`);
       setMessage("Country deleted successfully");
       fetchMilitaryData();
     } catch (err) {
@@ -110,10 +110,10 @@ function AdminMilitary() {
 
     try {
       if (isEditing) {
-        await api.put(`/military/${currentCountry._id}`, dataToSend);
+        await api.put(`/api/military/${currentCountry._id}`, dataToSend);
         setMessage("Country updated successfully");
       } else {
-        await api.post("/military", dataToSend);
+        await api.post("/api/military", dataToSend);
         setMessage("Country added successfully");
       }
       resetForm();

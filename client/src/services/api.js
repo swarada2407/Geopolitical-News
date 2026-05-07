@@ -44,4 +44,8 @@ export const summarizeNews = (articleData) => API.post("/api/news/summarize", ar
 export const getTopNews = (params) => API.get("/api/news/top", { params });
 export const searchNews = (q) => API.get("/api/news/search", { params: { q } });
 
+// Military API
+export const getMilitaryData = () => API.get("/api/military");
+export const getMilitaryCountry = (name) => API.get(`/api/military/${name}`);
+
 export default API;
