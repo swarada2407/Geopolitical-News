@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "https://geopolitical-news-1.onrender.com/api",
+  baseURL: import.meta.env.VITE_API_URL || "https://geopolitical-news.onrender.com/api",
 });
 
 // Add a request interceptor to include the auth token
