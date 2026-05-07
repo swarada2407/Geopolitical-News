@@ -35,6 +35,10 @@ function Navbar() {
 
   return (
     <>
+      <div 
+        className={`sidebar-overlay ${sidebarOpen ? "active" : ""}`} 
+        onClick={closeSidebar}
+      ></div>
       <header className="topbar">
         <div className="topbar-left">
           <button
